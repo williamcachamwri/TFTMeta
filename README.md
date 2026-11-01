@@ -14,13 +14,13 @@ The interface follows a five-tab structure: Compositions, Champions, Items, Trai
 
 The Compositions tab displays ranked team builds sorted by OP Score, win rate, average placement, or pick rate. Each composition card shows the core units, trait activations, and performance metrics.
 
-![Compositions View](/Users/wica/Downloads/IMG_2446.jpg)
+![Compositions View](screenshots/IMG_2446.jpg)
 
 The podium section highlights the top three compositions with visual emphasis on their rankings. Below, a scrollable list presents all compositions with their stats.
 
 Tapping a composition opens the detail view, which includes a hex board visualization showing unit positions, stage-by-stage progression (early game at level 5, mid game at level 7, final composition), core unit breakdowns with item builds, trait activations, and similar compositions.
 
-![Composition Detail](/Users/wica/Downloads/IMG_2450.jpg)
+![Composition Detail](screenshots/IMG_2450.jpg)
 
 The hex board renders the actual 3x7 TFT board layout with units placed in their optimal positions. Core units are highlighted with gold borders and priority badges. Items appear beneath each unit.
 
@@ -28,19 +28,19 @@ The hex board renders the actual 3x7 TFT board layout with units placed in their
 
 The Champions tab ranks all champions by average placement, win rate, top-4 rate, or games played. Filters allow narrowing by cost tier and trait.
 
-![Champions View](/Users/wica/Downloads/IMG_2447.jpg)
+![Champions View](screenshots/IMG_2447.jpg)
 
 Each champion row displays the champion art, name with skin variant, cost tier, trait icons, and performance statistics. The average placement is prominently shown on the right.
 
 The champion detail view provides a full breakdown: performance metrics (average placement, win rate, top-4 rate), base stats (HP, damage, attack speed, armor, magic resist, mana, range, crit chance), ability description, item usage rankings, and composition appearances.
 
-![Champion Detail](/Users/wica/Downloads/IMG_2449.jpg)
+![Champion Detail](screenshots/IMG_2449.jpg)
 
 ### Items
 
 The Items tab ranks items by win rate, average placement, games played, or top-4 rate. Each item row shows the item icon, name, category tag, average placement, win rate, top-4 rate, and a strip of champion thumbnails representing the top performers with that item.
 
-![Items View](/Users/wica/Downloads/IMG_2448.jpg)
+![Items View](screenshots/IMG_2448.jpg)
 
 Item categories include Core, Radiant, Artifact, Emblem, and Component. The detail view shows the item's stat description, build formula with component arrows, associated traits, best champion pairings, and alternative combinations.
 
@@ -58,11 +58,11 @@ The detail view includes the full effect text, associated traits, incompatible t
 
 The summoner search feature looks up players by name and tag, displaying their rank, LP, win/loss record, and recent match history.
 
-![Summoner Profile](/Users/wica/Downloads/IMG_2452.jpg)
+![Summoner Profile](screenshots/IMG_2452.jpg)
 
 The profile shows seasonal ranks across multiple sets, current tier and division, LP points, and percentile ranking. The recent form card displays top-4 rate, average placement, and win/loss counts over the last 30 games.
 
-![Match History](/Users/wica/Downloads/IMG_2451.jpg)
+![Match History](screenshots/IMG_2451.jpg)
 
 Match history entries show placement, round eliminated, traits activated, units on board with items, and final stats (level, gold remaining, damage dealt).
 
