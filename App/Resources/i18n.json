@@ -1,0 +1,2473 @@
+{
+ "App.augment.avg": {
+  "en": "Avg",
+  "ja": "平均",
+  "ko": "평균",
+  "vi": "TB",
+  "zh-tw": "平均"
+ },
+ "App.augment.compCount": {
+  "en": "%1$@ comps",
+  "ja": "%1$@ デッキ",
+  "ko": "%1$@ 덱",
+  "vi": "%1$@ đội hình",
+  "zh-tw": "%1$@ 陣容"
+ },
+ "App.augment.compsWith": {
+  "en": "Comps often with this augment",
+  "ja": "このオーグメントと併用されるデッキ",
+  "ko": "이 증강체와 함께 사용하는 덱",
+  "vi": "Đội hình hay kèm lõi này",
+  "zh-tw": "常與此增幅裝置搭配的陣容"
+ },
+ "App.augment.filter.allGrades": {
+  "en": "All grades",
+  "ja": "すべてのグレード",
+  "ko": "모든 등급",
+  "vi": "Mọi bậc",
+  "zh-tw": "所有等級"
+ },
+ "App.augment.filter.allRanks": {
+  "en": "All ranks",
+  "ja": "すべてのランク",
+  "ko": "모든 랭크",
+  "vi": "Mọi hạng",
+  "zh-tw": "所有階級"
+ },
+ "App.augment.filter.grade": {
+  "en": "Grade",
+  "ja": "グレード",
+  "ko": "등급",
+  "vi": "Bậc",
+  "zh-tw": "等級"
+ },
+ "App.augment.filter.gradeFormat": {
+  "en": "Grade %1$@",
+  "ja": "グレード %1$@",
+  "ko": "%1$@ 등급",
+  "vi": "Bậc %1$@",
+  "zh-tw": "%1$@ 等級"
+ },
+ "App.augment.filter.rank": {
+  "en": "Rank",
+  "ja": "ランク",
+  "ko": "랭크",
+  "vi": "Hạng",
+  "zh-tw": "階級"
+ },
+ "App.augment.incompatible": {
+  "en": "Incompatible with",
+  "ja": "非互換",
+  "ko": "호환되지 않음",
+  "vi": "Không tương thích với",
+  "zh-tw": "不相容"
+ },
+ "App.augment.noData": {
+  "en": "No augment data",
+  "ja": "オーグメントデータなし",
+  "ko": "증강체 데이터 없음",
+  "vi": "Không có dữ liệu lõi",
+  "zh-tw": "無增幅裝置資料"
+ },
+ "App.augment.noDesc": {
+  "en": "No description for this augment.",
+  "ja": "このオーグメントの説明はありません。",
+  "ko": "이 증강체에 대한 설명이 없습니다.",
+  "vi": "Không có mô tả cho lõi này.",
+  "zh-tw": "此增幅裝置沒有描述。"
+ },
+ "App.augment.relatedTraits": {
+  "en": "Related synergies",
+  "ja": "関連シナジー",
+  "ko": "관련 시너지",
+  "vi": "Tộc hệ liên quan",
+  "zh-tw": "相關羈絆"
+ },
+ "App.augment.sameTier": {
+  "en": "Same tier augments",
+  "ja": "同じティアのオーグメント",
+  "ko": "같은 티어 증강체",
+  "vi": "Cùng hạng lõi",
+  "zh-tw": "同等級增幅裝置"
+ },
+ "App.augment.synergy": {
+  "en": "Synergy suggestions",
+  "ja": "シナジー提案",
+  "ko": "시너지 제안",
+  "vi": "Gợi ý cộng hưởng",
+  "zh-tw": "協同建議"
+ },
+ "App.augment.synergyHint": {
+  "en": "Shares traits",
+  "ja": "共有特性",
+  "ko": "특성 공유",
+  "vi": "Chia sẻ tộc hệ",
+  "zh-tw": "共享特性"
+ },
+ "App.augment.searchPlaceholder": {
+  "en": "Search augment…",
+  "ja": "オーグメントを検索…",
+  "ko": "증강체 검색…",
+  "vi": "Tìm lõi…",
+  "zh-tw": "搜尋增幅裝置…"
+ },
+ "App.augment.sort.opTier": {
+  "en": "OP tier",
+  "ja": "OPティア",
+  "ko": "OP 티어",
+  "vi": "Bậc OP",
+  "zh-tw": "OP 等級"
+ },
+ "App.augment.sort.tier": {
+  "en": "Augment tier",
+  "ja": "オーグメントティア",
+  "ko": "증강체 티어",
+  "vi": "Hạng lõi",
+  "zh-tw": "增幅裝置等級"
+ },
+ "App.augment.subtitle": {
+  "en": "%1$@ augments in %2$@ meta",
+  "ja": "%2$@ メタの %1$@ オーグメント",
+  "ko": "%2$@ 메타의 %1$@ 증강체",
+  "vi": "%1$@ lõi trong meta %2$@",
+  "zh-tw": "%2$@ 元資料中的 %1$@ 增幅裝置"
+ },
+ "App.augment.tags": {
+  "en": "Tags",
+  "ja": "タグ",
+  "ko": "태그",
+  "vi": "Gắn thẻ",
+  "zh-tw": "標籤"
+ },
+ "App.augment.unique": {
+  "en": "Unique",
+  "ja": "ユニーク",
+  "ko": "고유",
+  "vi": "Duy nhất",
+  "zh-tw": "獨特"
+ },
+ "App.badge.adjust": {
+  "en": "ADJ",
+  "ja": "調整",
+  "ko": "조정",
+  "vi": "CHỈNH",
+  "zh-tw": "調整"
+ },
+ "App.badge.buff": {
+  "en": "BUFF",
+  "ja": "バフ",
+  "ko": "버프",
+  "vi": "BUFF",
+  "zh-tw": "增強"
+ },
+ "App.badge.nerf": {
+  "en": "NERF",
+  "ja": "ナーフ",
+  "ko": "너프",
+  "vi": "NERF",
+  "zh-tw": "削弱"
+ },
+ "App.balance.changeCount": {
+  "en": "Changes",
+  "ja": "変更",
+  "ko": "변경 사항",
+  "vi": "Mục thay đổi",
+  "zh-tw": "變更"
+ },
+ "App.balance.componentStats": {
+  "en": "Component stats",
+  "ja": "コンポーネントステータス",
+  "ko": "조합 스탯",
+  "vi": "Chỉ số thành phần",
+  "zh-tw": "組件數值"
+ },
+ "App.balance.loadingChanges": {
+  "en": "Loading %1$@ changes for patch %2$@…",
+  "ja": "パッチ %2$@ の %1$@ の変更を読み込み中…",
+  "ko": "%2$@ 버전의 %1$@ 변경 사항 불러오는 중…",
+  "vi": "Đang tải thay đổi %1$@ bản %2$@…",
+  "zh-tw": "正在載入版本 %2$@ 的 %1$@ 變更…"
+ },
+ "App.balance.noChanges": {
+  "en": "No changes",
+  "ja": "変更なし",
+  "ko": "변경 사항 없음",
+  "vi": "Không có thay đổi nào",
+  "zh-tw": "無變更"
+ },
+ "App.balance.noChangesDesc": {
+  "en": "No %1$@ items in this filter for patch %2$@.",
+  "ja": "パッチ %2$@ のこのフィルターに %1$@ アイテムはありません。",
+  "ko": "%2$@ 버전의 이 필터에 %1$@ 항목이 없습니다.",
+  "vi": "Không có mục %1$@ nào ở bộ lọc này trong bản %2$@.",
+  "zh-tw": "版本 %2$@ 的此篩選條件中沒有 %1$@ 項目。"
+ },
+ "App.balance.patchFormat": {
+  "en": "Patch %1$@",
+  "ja": "バージョン %1$@",
+  "ko": "버전 %1$@",
+  "vi": "Bản %1$@",
+  "zh-tw": "版本 %1$@"
+ },
+ "App.balance.prevPatch": {
+  "en": "previous patch",
+  "ja": "前のバージョン",
+  "ko": "이전 버전",
+  "vi": "bản trước",
+  "zh-tw": "上一版本"
+ },
+ "App.balance.threshold": {
+  "en": "Threshold (%1$@)",
+  "ja": "しきい値 (%1$@)",
+  "ko": "단계 (%1$@)",
+  "vi": "Mốc (%1$@)",
+  "zh-tw": "門檻 (%1$@)"
+ },
+ "App.balance.title": {
+  "en": "Balance changes",
+  "ja": "バランス変更",
+  "ko": "밸런스 변경",
+  "vi": "Thay đổi sức mạnh",
+  "zh-tw": "平衡變更"
+ },
+ "App.balance.versionCompare": {
+  "en": "Patch %1$@ vs %2$@ · %3$@ changes",
+  "ja": "バージョン %1$@ vs %2$@ · %3$@ 個の変更",
+  "ko": "버전 %1$@ vs %2$@ · %3$@개 변경",
+  "vi": "Bản %1$@ so với %2$@ · %3$@ mục thay đổi",
+  "zh-tw": "版本 %1$@ vs %2$@ · %3$@ 項變更"
+ },
+ "App.bool.no": {
+  "en": "no",
+  "ja": "いいえ",
+  "ko": "아니요",
+  "vi": "không",
+  "zh-tw": "否"
+ },
+ "App.bool.yes": {
+  "en": "yes",
+  "ja": "はい",
+  "ko": "예",
+  "vi": "có",
+  "zh-tw": "是"
+ },
+ "App.boot.loading": {
+  "en": "Loading data",
+  "ja": "データ読み込み中",
+  "ko": "데이터 불러오는 중",
+  "vi": "Đang tải dữ liệu",
+  "zh-tw": "正在載入資料"
+ },
+ "App.builder.activeCount": {
+  "en": "%1$@ active",
+  "ja": "%1$@個アクティブ",
+  "ko": "%1$@개 활성화",
+  "vi": "%1$@ đang kích hoạt",
+  "zh-tw": "%1$@ 個啟動中"
+ },
+ "App.builder.avgCost": {
+  "en": "%1$@ avg cost",
+  "ja": "%1$@ 平均コスト",
+  "ko": "%1$@ 평균 비용",
+  "vi": "%1$@ giá TB",
+  "zh-tw": "%1$@ 平均成本"
+ },
+ "App.builder.board": {
+  "en": "Board",
+  "ja": "ボード",
+  "ko": "보드",
+  "vi": "Bàn cờ",
+  "zh-tw": "棋盤"
+ },
+ "App.builder.cellCost": {
+  "en": "Cell %1$@-%2$@ · %3$@ gold",
+  "ja": "セル %1$@-%2$@ · %3$@ ゴールド",
+  "ko": "셀 %1$@-%2$@ · %3$@ 골드",
+  "vi": "Ô %1$@-%2$@ · %3$@ vàng",
+  "zh-tw": "格子 %1$@-%2$@ · %3$@ 金幣"
+ },
+ "App.builder.coresLabel": {
+  "en": "Cores: ",
+  "ja": "オーグメント: ",
+  "ko": "증강체: ",
+  "vi": "Lõi: ",
+  "zh-tw": "增幅裝置: "
+ },
+ "App.builder.dragHint": {
+  "en": "Long press to drag, or tap to place",
+  "ja": "長押しでドラッグ、タップで配置",
+  "ko": "길게 눌러 드래그하거나 탭하여 배치",
+  "vi": "Nhấn giữ để kéo, hoặc chạm để đặt",
+  "zh-tw": "長按以拖曳，或點擊以放置"
+ },
+ "App.builder.dropCancel": {
+  "en": "outside to cancel",
+  "ja": "外にドロップでキャンセル",
+  "ko": "바깥에 놓으면 취소",
+  "vi": "ra ngoài để hủy",
+  "zh-tw": "放到外面以取消"
+ },
+ "App.builder.dropHint": {
+  "en": "Drop %1$@ into cell",
+  "ja": "%1$@をセルに配置",
+  "ko": "%1$@을(를) 셀에 놓기",
+  "vi": "Thả %1$@ vào ô",
+  "zh-tw": "將 %1$@ 放置到格子"
+ },
+ "App.builder.emptyTrait": {
+  "en": "Place champions to see synergies.",
+  "ja": "チャンピオンを配置してシナジーを確認しましょう。",
+  "ko": "챔피언을 배치하면 시너지를 확인할 수 있습니다.",
+  "vi": "Xếp tướng để xem thang tộc hệ.",
+  "zh-tw": "放置英雄以查看羈絆。"
+ },
+ "App.builder.onBoard": {
+  "en": "on board",
+  "ja": "ボード上",
+  "ko": "보드 위",
+  "vi": "trên bàn cờ",
+  "zh-tw": "在棋盤上"
+ },
+ "App.builder.rosterHint": {
+  "en": "Long press a champion in the tray below, then drag to a cell. Drag items onto champions to equip them.",
+  "ja": "下のトレイからチャンピオンを長押ししてボードにドラッグします。アイテムをチャンピオンにドラッグして装備します。",
+  "ko": "아래 트레이의 챔피언을 길게 눌러 보드로 드래그하세요. 아이템을 챔피언 위에 드래그하여 장착할 수 있습니다.",
+  "vi": "Nhấn giữ một tướng ở khay dưới rồi kéo lên ô. Trang bị kéo thẳng vào tướng trên bàn để lên đồ.",
+  "zh-tw": "長按下方托盤中的英雄，然後拖曳到棋盤格上。將物品拖曳到英雄身上即可裝備。"
+ },
+ "App.builder.selectCore": {
+  "en": "Select augment",
+  "ja": "オーグメントを選択",
+  "ko": "증강체 선택",
+  "vi": "Chọn lõi",
+  "zh-tw": "選擇增幅裝置"
+ },
+ "App.builder.shareFormat": {
+  "en": "TFT Set %1$@ Comp · %2$@",
+  "ja": "TFT セット %1$@ デッキ · %2$@",
+  "ko": "TFT 시즌 %1$@ 덱 · %2$@",
+  "vi": "Đội hình TFT mùa %1$@ · %2$@",
+  "zh-tw": "TFT 賽季 %1$@ 陣容 · %2$@"
+ },
+ "App.champion.ability": {
+  "en": "Ability",
+  "ja": "スキル",
+  "ko": "스킬",
+  "vi": "Kỹ năng",
+  "zh-tw": "技能"
+ },
+ "App.champion.abilityLabel": {
+  "en": "Ability: %1$@",
+  "ja": "スキル: %1$@",
+  "ko": "스킬: %1$@",
+  "vi": "Kỹ năng: %1$@",
+  "zh-tw": "技能: %1$@"
+ },
+ "App.champion.avg": {
+  "en": "Avg",
+  "ja": "平均",
+  "ko": "평균",
+  "vi": "TB",
+  "zh-tw": "平均"
+ },
+ "App.champion.baseStats": {
+  "en": "Base stats",
+  "ja": "基本ステータス",
+  "ko": "기본 스탯",
+  "vi": "Chỉ số cơ bản",
+  "zh-tw": "基礎數值"
+ },
+ "App.champion.byWinRate": {
+  "en": "by actual win rate",
+  "ja": "実勝率順",
+  "ko": "실제 승률 기준",
+  "vi": "theo tỉ lệ thắng thực tế",
+  "zh-tw": "依實際勝率"
+ },
+ "App.champion.commonComps": {
+  "en": "Common comps",
+  "ja": "一般的なデッキ",
+  "ko": "자주 사용되는 덱",
+  "vi": "Đội hình thường dùng",
+  "zh-tw": "常見陣容"
+ },
+ "App.champion.compCount": {
+  "en": "%1$@ comps",
+  "ja": "%1$@ デッキ",
+  "ko": "%1$@ 덱",
+  "vi": "%1$@ đội hình",
+  "zh-tw": "%1$@ 陣容"
+ },
+ "App.champion.filter.allCosts": {
+  "en": "All costs",
+  "ja": "すべてのコスト",
+  "ko": "모든 비용",
+  "vi": "Mọi giá",
+  "zh-tw": "所有費用"
+ },
+ "App.champion.filter.allTraits": {
+  "en": "All synergies",
+  "ja": "すべてのシナジー",
+  "ko": "모든 시너지",
+  "vi": "Mọi tộc hệ",
+  "zh-tw": "所有羈絆"
+ },
+ "App.champion.filter.cost": {
+  "en": "Cost",
+  "ja": "コスト",
+  "ko": "비용",
+  "vi": "Giá",
+  "zh-tw": "費用"
+ },
+ "App.champion.filter.costFormat": {
+  "en": "%1$@ gold",
+  "ja": "%1$@ ゴールド",
+  "ko": "%1$@ 골드",
+  "vi": "%1$@ vàng",
+  "zh-tw": "%1$@ 金幣"
+ },
+ "App.champion.filter.trait": {
+  "en": "Synergy",
+  "ja": "シナジー",
+  "ko": "시너지",
+  "vi": "Tộc hệ",
+  "zh-tw": "羈絆"
+ },
+ "App.champion.noComboData": {
+  "en": "No combo data for this champion.",
+  "ja": "このチャンピオンのコンボデータはありません。",
+  "ko": "이 챔피언의 콤보 데이터가 없습니다.",
+  "vi": "Chưa có dữ liệu combo cho tướng này.",
+  "zh-tw": "此英雄沒有組合資料。"
+ },
+ "App.champion.noData": {
+  "en": "No champion data",
+  "ja": "チャンピオンデータなし",
+  "ko": "챔피언 데이터 없음",
+  "vi": "Không có dữ liệu tướng",
+  "zh-tw": "無英雄資料"
+ },
+ "App.champion.performance": {
+  "en": "Performance",
+  "ja": "パフォーマンス",
+  "ko": "성능",
+  "vi": "Hiệu suất",
+  "zh-tw": "效能"
+ },
+ "App.champion.recommendedItems": {
+  "en": "Recommended items",
+  "ja": "おすすめアイテム",
+  "ko": "추천 아이템",
+  "vi": "Trang bị đề xuất",
+  "zh-tw": "建議裝備"
+ },
+ "App.champion.role.adCarry": {
+  "en": "AD Carry",
+  "ja": "ADキャリー",
+  "ko": "AD 캐리",
+  "vi": "Xạ thủ chủ lực",
+  "zh-tw": "AD 攜帶者"
+ },
+ "App.champion.role.adFighter": {
+  "en": "AD Fighter",
+  "ja": "ADファイター",
+  "ko": "AD 전사",
+  "vi": "Đấu sĩ vật lý",
+  "zh-tw": "AD 戰士"
+ },
+ "App.champion.role.apCarry": {
+  "en": "AP Carry",
+  "ja": "APキャリー",
+  "ko": "AP 캐리",
+  "vi": "Pháp sư chủ lực",
+  "zh-tw": "AP 攜帶者"
+ },
+ "App.champion.role.apFighter": {
+  "en": "AP Fighter",
+  "ja": "APファイター",
+  "ko": "AP 전사",
+  "vi": "Đấu sĩ phép",
+  "zh-tw": "AP 戰士"
+ },
+ "App.champion.role.support": {
+  "en": "Support",
+  "ja": "サポート",
+  "ko": "서포터",
+  "vi": "Hỗ trợ",
+  "zh-tw": "輔助"
+ },
+ "App.champion.role.tank": {
+  "en": "Tank",
+  "ja": "タンク",
+  "ko": "탱커",
+  "vi": "Đỡ đòn",
+  "zh-tw": "坦克"
+ },
+ "App.champion.role.vanguard": {
+  "en": "Vanguard",
+  "ja": "ヴァンガード",
+  "ko": "뱅가드",
+  "vi": "Tiên phong",
+  "zh-tw": "先鋒"
+ },
+ "App.champion.searchPlaceholder": {
+  "en": "Search champion…",
+  "ja": "チャンピオンを検索…",
+  "ko": "챔피언 검색…",
+  "vi": "Tìm tướng…",
+  "zh-tw": "搜尋英雄…"
+ },
+ "App.champion.sort.avg": {
+  "en": "Avg. place",
+  "ja": "平均ランク",
+  "ko": "평균 순위",
+  "vi": "Vị trí TB",
+  "zh-tw": "平均排名"
+ },
+ "App.champion.sort.total": {
+  "en": "Games",
+  "ja": "試合",
+  "ko": "게임 수",
+  "vi": "Số trận",
+  "zh-tw": "比賽"
+ },
+ "App.champion.starLevel": {
+  "en": "1-star level",
+  "ja": "1つ星レベル",
+  "ko": "1성 레벨",
+  "vi": "cấp 1 sao",
+  "zh-tw": "1 星等級"
+ },
+ "App.champion.stat.attackSpeed": {
+  "en": "Attack speed",
+  "ja": "攻撃速度",
+  "ko": "공격 속도",
+  "vi": "Tốc đánh",
+  "zh-tw": "攻擊速度"
+ },
+ "App.champion.stat.damage": {
+  "en": "Damage",
+  "ja": "ダメージ",
+  "ko": "피해",
+  "vi": "Sát thương",
+  "zh-tw": "傷害"
+ },
+ "App.champion.stat.hp": {
+  "en": "Health",
+  "ja": "体力",
+  "ko": "체력",
+  "vi": "Máu",
+  "zh-tw": "血量"
+ },
+ "App.champion.stat.range": {
+  "en": "Range",
+  "ja": "範囲",
+  "ko": "사거리",
+  "vi": "Tầm đánh",
+  "zh-tw": "範圍"
+ },
+ "App.champion.stat.rangeUnit": {
+  "en": "tiles",
+  "ja": "マス",
+  "ko": "칸",
+  "vi": "ô",
+  "zh-tw": "格"
+ },
+ "App.champion.subtitle": {
+  "en": "Set %1$@ details",
+  "ja": "セット %1$@ 詳細",
+  "ko": "시즌 %1$@ 상세",
+  "vi": "Chi tiết theo mùa %1$@",
+  "zh-tw": "賽季 %1$@ 詳情"
+ },
+ "App.champion.title": {
+  "en": "Champion rankings",
+  "ja": "チャンピオンランキング",
+  "ko": "챔피언 랭킹",
+  "vi": "Bảng xếp hạng tướng",
+  "zh-tw": "英雄排行榜"
+ },
+ "App.champion.traits": {
+  "en": "Origins / Classes",
+  "ja": "オリジン / クラス",
+  "ko": "계열 / 직업",
+  "vi": "Tộc / Hệ",
+  "zh-tw": "起源 / 級別"
+ },
+ "App.champion.win": {
+  "en": "Win",
+  "ja": "勝",
+  "ko": "승",
+  "vi": "Thắng",
+  "zh-tw": "勝"
+ },
+ "App.champion.winSuffix": {
+  "en": "win",
+  "ja": "勝",
+  "ko": "승",
+  "vi": "thắng",
+  "zh-tw": "勝"
+ },
+ "App.championSelector.clear": {
+  "en": "Clear",
+  "ja": "クリア",
+  "ko": "지우기",
+  "vi": "Xóa",
+  "zh-tw": "清除"
+ },
+ "App.championSelector.count": {
+  "en": "%1$@ champions selected",
+  "ja": "%1$@ チャンピオン選択済み",
+  "ko": "%1$@ 챔피언 선택됨",
+  "vi": "%1$@ tướng đã chọn",
+  "zh-tw": "已選擇 %1$@ 個英雄"
+ },
+ "App.championSelector.done": {
+  "en": "Done",
+  "ja": "完了",
+  "ko": "완료",
+  "vi": "Xong",
+  "zh-tw": "完成"
+ },
+ "App.championSelector.title": {
+  "en": "Select your champions",
+  "ja": "チャンピオンを選択",
+  "ko": "내 챔피언 선택",
+  "vi": "Chọn tướng của bạn",
+  "zh-tw": "選擇你的英雄"
+ },
+ "App.comp.allLevels": {
+  "en": "All levels",
+  "ja": "すべてのレベル",
+  "ko": "모든 레벨",
+  "vi": "Mọi cấp",
+  "zh-tw": "所有等級"
+ },
+ "App.comp.avgRank": {
+  "en": "avg. rank",
+  "ja": "平均ランク",
+  "ko": "평균 순위",
+  "vi": "hạng trung bình",
+  "zh-tw": "平均排名"
+ },
+ "App.comp.avgRankShort": {
+  "en": "avg.",
+  "ja": "平均",
+  "ko": "평균",
+  "vi": "hạng TB",
+  "zh-tw": "平均"
+ },
+ "App.comp.baseline": {
+  "en": "baseline %1$@",
+  "ja": "ベースライン %1$@",
+  "ko": "기본 %1$@",
+  "vi": "nền %1$@",
+  "zh-tw": "基準 %1$@"
+ },
+ "App.comp.championCount": {
+  "en": "%1$@ champions",
+  "ja": "%1$@ チャンピオン",
+  "ko": "%1$@ 챔피언",
+  "vi": "%1$@ tướng",
+  "zh-tw": "%1$@ 位英雄"
+ },
+ "App.comp.copyCode": {
+  "en": "Copy code",
+  "ja": "コードをコピー",
+  "ko": "코드 복사",
+  "vi": "Sao chép mã",
+  "zh-tw": "複製代碼"
+ },
+ "App.comp.coreChampions": {
+  "en": "Core champions",
+  "ja": "コアチャンピオン",
+  "ko": "핵심 챔피언",
+  "vi": "Tướng chủ lực",
+  "zh-tw": "核心英雄"
+ },
+ "App.comp.coreCount": {
+  "en": "%1$@ of %2$@ champions",
+  "ja": "%2$@ 体中 %1$@ 体",
+  "ko": "%2$@명 중 %1$@명",
+  "vi": "%1$@ trong %2$@ tướng",
+  "zh-tw": "%2$@ 位英雄中的 %1$@ 位"
+ },
+ "App.comp.filter.allTiers": {
+  "en": "All tiers",
+  "ja": "すべてのティア",
+  "ko": "모든 티어",
+  "vi": "Mọi bậc",
+  "zh-tw": "所有等級"
+ },
+ "App.comp.filter.tierFormat": {
+  "en": "Tier %1$@",
+  "ja": "ティア %1$@",
+  "ko": "%1$@ 티어",
+  "vi": "Bậc %1$@",
+  "zh-tw": "%1$@ 等級"
+ },
+ "App.comp.honey": {
+  "en": "Honey",
+  "ja": "ハニー",
+  "ko": "허니",
+  "vi": "Mật ong",
+  "zh-tw": "蜂蜜"
+ },
+ "App.comp.itemCount": {
+  "en": "x%1$@",
+  "ja": "x%1$@",
+  "ko": "x%1$@",
+  "vi": "x%1$@",
+  "zh-tw": "x%1$@"
+ },
+ "App.comp.items": {
+  "en": "Items",
+  "ja": "アイテム",
+  "ko": "아이템",
+  "vi": "Trang bị",
+  "zh-tw": "裝備"
+ },
+ "App.comp.level": {
+  "en": "Level %1$@",
+  "ja": "レベル %1$@",
+  "ko": "%1$@ 레벨",
+  "vi": "Cấp %1$@",
+  "zh-tw": "%1$@ 級"
+ },
+ "App.comp.mostSharedTraits": {
+  "en": "Most shared synergies",
+  "ja": "最も共有シナジーが多い",
+  "ko": "가장 많은 공유 시너지",
+  "vi": "Chung nhiều tộc hệ nhất",
+  "zh-tw": "最多共享羈絆"
+ },
+ "App.comp.noComps": {
+  "en": "No comps found",
+  "ja": "デッキが見つかりません",
+  "ko": "덱이 없습니다",
+  "vi": "Không có đội hình nào",
+  "zh-tw": "找不到陣容"
+ },
+ "App.comp.noCompsDesc": {
+  "en": "Try changing filters or search terms.",
+  "ja": "フィルターや検索語を変更してください。",
+  "ko": "필터나 검색어를 변경해 보세요.",
+  "vi": "Thử đổi bộ lọc hoặc từ khoá tìm kiếm.",
+  "zh-tw": "請嘗試變更篩選條件或搜尋關鍵字。"
+ },
+ "App.comp.noPositions": {
+  "en": "op.gg has no positions for this stage yet — here is the list of champions to equip.",
+  "ja": "op.ggにはこの阶段の配置がまだありません — 装備するチャンピオンのリストです。",
+  "ko": "op.gg에 아직 이 단계의 배치가 없습니다 — 장착할 챔피언 목록입니다.",
+  "vi": "op.gg chưa có vị trí xếp cho giai đoạn này — đây là danh sách tướng cần lên đồ.",
+  "zh-tw": "op.gg 尚無此阶段的位置 — 以下是需要裝備的英雄列表。"
+ },
+ "App.comp.notFound": {
+  "en": "Comp not found",
+  "ja": "デッキが見つかりません",
+  "ko": "덱을 찾을 수 없습니다",
+  "vi": "Không tìm thấy đội hình",
+  "zh-tw": "找不到陣容"
+ },
+ "App.comp.opBadge": {
+  "en": "OP",
+  "ja": "OP",
+  "ko": "OP",
+  "vi": "OP",
+  "zh-tw": "OP"
+ },
+ "App.comp.opFormat": {
+  "en": "OP %1$@",
+  "ja": "OP %1$@",
+  "ko": "OP %1$@",
+  "vi": "OP %1$@",
+  "zh-tw": "OP %1$@"
+ },
+ "App.comp.ordinal.1": {
+  "en": "1st",
+  "ja": "1st",
+  "ko": "1st",
+  "vi": "1st",
+  "zh-tw": "1st"
+ },
+ "App.comp.ordinal.2": {
+  "en": "2nd",
+  "ja": "2nd",
+  "ko": "2nd",
+  "vi": "2nd",
+  "zh-tw": "2nd"
+ },
+ "App.comp.ordinal.3": {
+  "en": "3rd",
+  "ja": "3rd",
+  "ko": "3rd",
+  "vi": "3rd",
+  "zh-tw": "3rd"
+ },
+ "App.comp.ordinal.4": {
+  "en": "4th",
+  "ja": "4th",
+  "ko": "4th",
+  "vi": "4th",
+  "zh-tw": "4th"
+ },
+ "App.comp.ordinalNth": {
+  "en": "%1$@th",
+  "ja": "%1$@th",
+  "ko": "%1$@th",
+  "vi": "%1$@th",
+  "zh-tw": "%1$@th"
+ },
+ "App.comp.pasteInstruction": {
+  "en": "Paste this code into op.gg's Team Builder to recreate the exact comp, including positioning and items.",
+  "ja": "このコードを op.gg のチームビルダーに貼り付けて、配置やアイテムを含む正確なデッキを再現してください。",
+  "ko": "이 코드를 op.gg의 팀 빌더에 붙여넣어 위치와 아이템을 포함한 정확한 덱을 재현하세요.",
+  "vi": "Dán mã này vào công cụ Team Builder của op.gg để dựng lại đúng đội hình, bao gồm vị trí đứng và trang bị.",
+  "zh-tw": "將此代碼貼到 op.gg 的陣容模擬器中，即可重現包含站位和裝備的精確陣容。"
+ },
+ "App.comp.playable": {
+  "en": "Playable",
+  "ja": "プレイ可能",
+  "ko": "플레이 가능",
+  "vi": "Chơi được",
+  "zh-tw": "可玩"
+ },
+ "App.comp.playableBanner": {
+  "en": "%1$@ comps match your %2$@ champions",
+  "ja": "%2$@ チャンピオンに一致する%1$@ デッキ",
+  "ko": "%2$@ 챔피언에 맞는 %1$@ 덱",
+  "vi": "%1$@ đội hình phù hợp với %2$@ tướng đã chọn",
+  "zh-tw": "%1$@ 個陣容符合你的 %2$@ 個英雄"
+ },
+ "App.comp.playableClear": {
+  "en": "Clear",
+  "ja": "クリア",
+  "ko": "지우기",
+  "vi": "Bỏ chọn",
+  "zh-tw": "清除"
+ },
+ "App.comp.rankUnit": {
+  "en": "RANK",
+  "ja": "ランク",
+  "ko": "순위",
+  "vi": "HẠNG",
+  "zh-tw": "排名"
+ },
+ "App.comp.recentPlays": {
+  "en": "Total %1$@ gold · %2$@ recent plays",
+  "ja": "合計 %1$@ ゴールド · 最近 %2$@ プレイ",
+  "ko": "총 %1$@ 골드 · 최근 %2$@회 플레이",
+  "vi": "Tổng %1$@ vàng · %2$@ lượt truy cập gần đây",
+  "zh-tw": "總計 %1$@ 金幣 · 最近 %2$@ 場遊戲"
+ },
+ "App.comp.searchPlaceholder": {
+  "en": "Search comps, champions, or synergies…",
+  "ja": "デッキ、チャンピオン、シナジーを検索…",
+  "ko": "덱, 챔피언 또는 시너지 검색…",
+  "vi": "Tìm đội hình, tướng hoặc tộc hệ…",
+  "zh-tw": "搜尋陣容、英雄或羈絆…"
+ },
+ "App.comp.sharedTraits": {
+  "en": "Shared %1$@ synergies · %2$@ gold",
+  "ja": "共有 %1$@ シナジー · %2$@ ゴールド",
+  "ko": "공유 %1$@ 시너지 · %2$@ 골드",
+  "vi": "Chung %1$@ tộc hệ · %2$@ vàng",
+  "zh-tw": "共享 %1$@ 羈絆 · %2$@ 金幣"
+ },
+ "App.comp.similarComps": {
+  "en": "Similar comps",
+  "ja": "類似デッキ",
+  "ko": "유사한 덱",
+  "vi": "Đội hình tương tự",
+  "zh-tw": "類似陣容"
+ },
+ "App.comp.sort.opScore": {
+  "en": "OP score",
+  "ja": "OPスコア",
+  "ko": "OP 점수",
+  "vi": "Điểm OP",
+  "zh-tw": "OP 分數"
+ },
+ "App.comp.sort.pick": {
+  "en": "Pick rate",
+  "ja": "選択率",
+  "ko": "선택률",
+  "vi": "Tỉ lệ chọn",
+  "zh-tw": "選擇率"
+ },
+ "App.comp.sort.top1": {
+  "en": "Top 1",
+  "ja": "1位",
+  "ko": "1위",
+  "vi": "Top 1",
+  "zh-tw": "第 1 名"
+ },
+ "App.comp.stage.early": {
+  "en": "Early",
+  "ja": "序盤",
+  "ko": "초반",
+  "vi": "Đầu trận",
+  "zh-tw": "早期"
+ },
+ "App.comp.stage.final": {
+  "en": "Final comp",
+  "ja": "最終デッキ",
+  "ko": "최종 덱",
+  "vi": "Đội hình cuối",
+  "zh-tw": "最終陣容"
+ },
+ "App.comp.stage.middle": {
+  "en": "Mid",
+  "ja": "中盤",
+  "ko": "중반",
+  "vi": "Giữa trận",
+  "zh-tw": "中期"
+ },
+ "App.comp.stageWinRate": {
+  "en": "Win rate %1$@ · %2$@ plays",
+  "ja": "勝率 %1$@ · %2$@ プレイ",
+  "ko": "승률 %1$@ · %2$@회 플레이",
+  "vi": "Tỉ lệ thắng %1$@ · %2$@ lượt",
+  "zh-tw": "勝率 %1$@ · %2$@ 場遊戲"
+ },
+ "App.comp.tapForDetail": {
+  "en": "Tap for details",
+  "ja": "タップして詳細を表示",
+  "ko": "탭하여 상세 보기",
+  "vi": "Nhấn để xem chi tiết",
+  "zh-tw": "點擊查看詳情"
+ },
+ "App.comp.teamCode": {
+  "en": "Team code & how to copy",
+  "ja": "デッキコードとコピー方法",
+  "ko": "덱 코드 및 복사 방법",
+  "vi": "Mã đội hình & cách sao chép",
+  "zh-tw": "陣容代碼與複製方式"
+ },
+ "App.comp.teamCodeTitle": {
+  "en": "Team code",
+  "ja": "デッキコード",
+  "ko": "덱 코드",
+  "vi": "Mã đội hình",
+  "zh-tw": "陣容代碼"
+ },
+ "App.comp.title": {
+  "en": "Recommended comps",
+  "ja": "おすすめデッキ",
+  "ko": "추천 덱",
+  "vi": "Đội hình đề xuất",
+  "zh-tw": "建議陣容"
+ },
+ "App.comp.totalCost": {
+  "en": "Total %1$@ gold",
+  "ja": "合計 %1$@ ゴールド",
+  "ko": "총 %1$@ 골드",
+  "vi": "Tổng %1$@ vàng",
+  "zh-tw": "總計 %1$@ 金幣"
+ },
+ "App.comp.unknown": {
+  "en": "Unknown",
+  "ja": "不明",
+  "ko": "알 수 없음",
+  "vi": "Chưa rõ",
+  "zh-tw": "不明"
+ },
+ "App.comp.vsAll": {
+  "en": "vs all comps",
+  "ja": "全デッキ比",
+  "ko": "모든 덱 대비",
+  "vi": "So với mọi đội hình",
+  "zh-tw": "對所有陣容"
+ },
+ "App.empty.lpHistory": {
+  "en": "This player has no LP history.",
+  "ja": "このプレイヤーにはLP履歴がありません。",
+  "ko": "이 플레이어는 LP 기록이 없습니다.",
+  "vi": "Người chơi này chưa có lịch sử LP.",
+  "zh-tw": "此玩家沒有 LP 歷史記錄。"
+ },
+ "App.error.balanceLoadFailed": {
+  "en": "Could not load %1$@ changes for patch %2$@.",
+  "ja": "パッチ %2$@ の %1$@ の変更を読み込めませんでした。",
+  "ko": "%2$@ 버전의 %1$@ 변경 사항을 불러올 수 없습니다.",
+  "vi": "Không tải được thay đổi %1$@ bản %2$@.",
+  "zh-tw": "無法載入版本 %2$@ 的 %1$@ 變更。"
+ },
+ "App.error.summonerBadTag": {
+  "en": "Search format: Name#TAG, e.g. IronBog#999.",
+  "ja": "検索形式: 名前#タグ、例: IronBog#999。",
+  "ko": "검색 형식: 이름#태그, 예: IronBog#999.",
+  "vi": "Định dạng tìm kiếm: Tên#TAG, ví dụ IronBog#999.",
+  "zh-tw": "搜尋格式：名稱#標籤，例如 IronBog#999。"
+ },
+ "App.error.summonerNotFound": {
+  "en": "Could not find this player on the selected server.",
+  "ja": "選択したサーバーでこのプレイヤーが見つかりませんでした。",
+  "ko": "선택한 서버에서 이 플레이어를 찾을 수 없습니다.",
+  "vi": "Không tìm thấy người chơi này ở máy chủ đã chọn.",
+  "zh-tw": "在所選伺服器上找不到此玩家。"
+ },
+ "App.error.summonerOffline": {
+  "en": "Could not reach op.gg — check your connection and try again.",
+  "ja": "op.ggに接続できませんでした — 接続を確認して再試行してください。",
+  "ko": "op.gg에 연결할 수 없습니다 — 연결을 확인하고 다시 시도하세요.",
+  "vi": "Không kết nối được op.gg — kiểm tra mạng rồi thử lại.",
+  "zh-tw": "無法連接 op.gg — 請檢查連線並重試。"
+ },
+ "App.item.associatedTraits": {
+  "en": "Associated synergies",
+  "ja": "関連シナジー",
+  "ko": "연관 시너지",
+  "vi": "Gắn với tộc hệ",
+  "zh-tw": "相關羈絆"
+ },
+ "App.item.bestChamps": {
+  "en": "Best champions",
+  "ja": "最適チャンピオン",
+  "ko": "최적 챔피언",
+  "vi": "Tướng dùng tốt nhất",
+  "zh-tw": "最佳英雄"
+ },
+ "App.item.buildFormula": {
+  "en": "Build formula",
+  "ja": "組み立て式",
+  "ko": "조합 공식",
+  "vi": "Công thức ghép",
+  "zh-tw": "合成公式"
+ },
+ "App.item.byWinRate": {
+  "en": "sorted by win rate",
+  "ja": "勝率順",
+  "ko": "승률순 정렬",
+  "vi": "xếp theo tỉ lệ thắng",
+  "zh-tw": "依勝率排序"
+ },
+ "App.item.col.avg": {
+  "en": "AVG",
+  "ja": "平均",
+  "ko": "평균",
+  "vi": "TB",
+  "zh-tw": "平均"
+ },
+ "App.item.col.win": {
+  "en": "WIN",
+  "ja": "勝",
+  "ko": "승",
+  "vi": "THẮNG",
+  "zh-tw": "勝"
+ },
+ "App.item.comboCount": {
+  "en": "%1$@ combos",
+  "ja": "%1$@ コンボ",
+  "ko": "%1$@ 콤보",
+  "vi": "%1$@ combo",
+  "zh-tw": "%1$@ 組合"
+ },
+ "App.item.comboPerf": {
+  "en": "Combo performance",
+  "ja": "コンボパフォーマンス",
+  "ko": "콤보 성능",
+  "vi": "Hiệu suất combo",
+  "zh-tw": "組合效能"
+ },
+ "App.item.filter.all": {
+  "en": "All items",
+  "ja": "すべてのアイテム",
+  "ko": "모든 아이템",
+  "vi": "Mọi trang bị",
+  "zh-tw": "所有裝備"
+ },
+ "App.item.filter.combo": {
+  "en": "Combo 2–3 items",
+  "ja": "コンボ 2〜3個",
+  "ko": "콤보 2~3개",
+  "vi": "Combo 2–3 món",
+  "zh-tw": "組合 2-3 件"
+ },
+ "App.item.filter.single": {
+  "en": "Single",
+  "ja": "単品",
+  "ko": "단일",
+  "vi": "Đơn lẻ",
+  "zh-tw": "單件"
+ },
+ "App.item.filter.type": {
+  "en": "Type",
+  "ja": "タイプ",
+  "ko": "유형",
+  "vi": "Loại",
+  "zh-tw": "類型"
+ },
+ "App.item.gameCount": {
+  "en": "%1$@ games",
+  "ja": "%1$@ 試合",
+  "ko": "%1$@ 게임",
+  "vi": "%1$@ trận",
+  "zh-tw": "%1$@ 場"
+ },
+ "App.item.header": {
+  "en": "ITEM",
+  "ja": "アイテム",
+  "ko": "아이템",
+  "vi": "TRANG BỊ",
+  "zh-tw": "裝備"
+ },
+ "App.item.noData": {
+  "en": "No data yet.",
+  "ja": "データがありません。",
+  "ko": "데이터가 없습니다.",
+  "vi": "Chưa có dữ liệu.",
+  "zh-tw": "尚無資料。"
+ },
+ "App.item.otherCombos": {
+  "en": "Other combos with this item",
+  "ja": "このアイテムを含む他のコンボ",
+  "ko": "이 아이템을 포함한 다른 콤보",
+  "vi": "Combo khác với trang bị này",
+  "zh-tw": "包含此物品的其他組合"
+ },
+ "App.item.subtitle": {
+  "en": "%1$@ items · sorted by %2$@",
+  "ja": "%1$@ アイテム · %2$@ で並べ替え",
+  "ko": "%1$@ 아이템 · %2$@ 정렬",
+  "vi": "%1$@ trang bị · xếp theo %2$@",
+  "zh-tw": "%1$@ 裝備 · 依 %2$@ 排序"
+ },
+ "App.item.title": {
+  "en": "Items",
+  "ja": "アイテム",
+  "ko": "아이템",
+  "vi": "Trang bị",
+  "zh-tw": "裝備"
+ },
+ "App.itemCategory.consumable": {
+  "en": "Consumable",
+  "ja": "消耗品",
+  "ko": "소용",
+  "vi": "Tiêu hao",
+  "zh-tw": "消耗品"
+ },
+ "App.language.change": {
+  "en": "Change language",
+  "ja": "言語を変更",
+  "ko": "언어 변경",
+  "vi": "Đổi ngôn ngữ",
+  "zh-tw": "變更語言"
+ },
+ "App.language.favorite": {
+  "en": "Preferred language",
+  "ja": "優先言語",
+  "ko": "선호 언어",
+  "vi": "Ngôn ngữ yêu thích",
+  "zh-tw": "偏好語言"
+ },
+ "App.loading.lpHistory": {
+  "en": "Loading LP history…",
+  "ja": "LP履歴を読み込み中…",
+  "ko": "LP 기록 불러오는 중…",
+  "vi": "Đang tải lịch sử LP…",
+  "zh-tw": "正在載入 LP 歷史…"
+ },
+ "App.notice.offline": {
+  "en": "Could not reach op.gg — still using current data.",
+  "ja": "op.ggに接続できませんでした — 現在のデータを使用しています。",
+  "ko": "op.gg에 연결할 수 없습니다 — 현재 데이터를 사용 중입니다.",
+  "vi": "Không kết nối được op.gg — vẫn đang dùng dữ liệu hiện có.",
+  "zh-tw": "無法連接 op.gg — 仍在使用目前資料。"
+ },
+ "App.notice.structureChanged": {
+  "en": "op.gg changed its data structure — keeping the current version.",
+  "ja": "op.ggのデータ構造が変更されました — 現在のバージョンを保持します。",
+  "ko": "op.gg 데이터 구조가 변경되었습니다 — 현재 버전을 유지합니다.",
+  "vi": "op.gg đã đổi cấu trúc dữ liệu — giữ nguyên bản đang có.",
+  "zh-tw": "op.gg 資料結構已變更 — 保留目前版本。"
+ },
+ "App.notice.updated": {
+  "en": "Updated %1$@ comps, %2$@ champions.",
+  "ja": "%1$@ コンボ、%2$@ チャンピオンを更新しました。",
+  "ko": "%1$@ 덱, %2$@ 챔피언 업데이트됨.",
+  "vi": "Đã cập nhật %1$@ đội hình, %2$@ tướng.",
+  "zh-tw": "已更新 %1$@ 陣容，%2$@ 英雄。"
+ },
+ "App.patch": {
+  "en": "patch %1$@",
+  "ja": "バージョン %1$@",
+  "ko": "버전 %1$@",
+  "vi": "bản %1$@",
+  "zh-tw": "版本 %1$@"
+ },
+ "App.queue.normal": {
+  "en": "Normal",
+  "ja": "ノーマル",
+  "ko": "일반",
+  "vi": "Thường",
+  "zh-tw": "一般"
+ },
+ "App.queue.other": {
+  "en": "Other modes",
+  "ja": "その他のモード",
+  "ko": "기타 모드",
+  "vi": "Chế độ khác",
+  "zh-tw": "其他模式"
+ },
+ "App.season": {
+  "en": "SEASON %1$@",
+  "ja": "セット%1$@",
+  "ko": "시즌 %1$@",
+  "vi": "MÙA %1$@",
+  "zh-tw": "賽季 %1$@"
+ },
+ "App.stat.critChance": {
+  "en": "Crit chance",
+  "ja": "クリティカル率",
+  "ko": "치명타 확률",
+  "vi": "Tỉ lệ chí mạng",
+  "zh-tw": "暴擊率"
+ },
+ "App.stat.critMultiplier": {
+  "en": "Crit damage",
+  "ja": "クリティカルダメージ",
+  "ko": "치명타 피해",
+  "vi": "Sát thương chí mạng",
+  "zh-tw": "暴擊傷害"
+ },
+ "App.stat.initialMana": {
+  "en": "Starting mana",
+  "ja": "初期マナ",
+  "ko": "시작 마나",
+  "vi": "Năng lượng khởi đầu",
+  "zh-tw": "初始魔力"
+ },
+ "App.stat.mana": {
+  "en": "Mana",
+  "ja": "マナ",
+  "ko": "마나",
+  "vi": "Năng lượng",
+  "zh-tw": "魔力"
+ },
+ "App.stat.top4": {
+  "en": "Top 4",
+  "ja": "Top 4",
+  "ko": "Top 4",
+  "vi": "Top 4",
+  "zh-tw": "Top 4"
+ },
+ "App.stat.top4Header": {
+  "en": "TOP 4",
+  "ja": "TOP 4",
+  "ko": "TOP 4",
+  "vi": "TOP 4",
+  "zh-tw": "TOP 4"
+ },
+ "App.stat.top4Suffix": {
+  "en": " top 4",
+  "ja": " top 4",
+  "ko": " top 4",
+  "vi": " top 4",
+  "zh-tw": " top 4"
+ },
+ "App.summoner.avgPlacementFormat": {
+  "en": "%1$@th / 8",
+  "ja": "%1$@th / 8",
+  "ko": "%1$@th / 8",
+  "vi": "%1$@th / 8",
+  "zh-tw": "%1$@th / 8"
+ },
+ "App.summoner.avgSuffix": {
+  "en": "%1$@ avg",
+  "ja": "%1$@ 平均",
+  "ko": "%1$@ 평균",
+  "vi": "%1$@ TB",
+  "zh-tw": "%1$@ 平均"
+ },
+ "App.summoner.badgeFormat": {
+  "en": "%1$@ · %2$@ LP",
+  "ja": "%1$@ · %2$@ LP",
+  "ko": "%1$@ · %2$@ LP",
+  "vi": "%1$@ · %2$@ LP",
+  "zh-tw": "%1$@ · %2$@ LP"
+ },
+ "App.summoner.costFormat5Plus": {
+  "en": "5+ gold",
+  "ja": "5+ ゴールド",
+  "ko": "5+ 골드",
+  "vi": "5+ vàng",
+  "zh-tw": "5+ 金幣"
+ },
+ "App.summoner.daysAgo": {
+  "en": "%1$@d ago",
+  "ja": "%1$@日前",
+  "ko": "%1$@일 전",
+  "vi": "%1$@ ngày trước",
+  "zh-tw": "%1$@ 天前"
+ },
+ "App.summoner.eliminated": {
+  "en": "Eliminated",
+  "ja": "退場",
+  "ko": "퇴장",
+  "vi": "Hạ gục",
+  "zh-tw": "淘汰"
+ },
+ "App.summoner.endOfHistory": {
+  "en": "End of history — op.gg keeps the last %1$@ games.",
+  "ja": "履歴の最後 — op.ggは最近%1$@試合を保持します。",
+  "ko": "기록 끝 — op.gg는 최근 %1$@게임을 보관합니다.",
+  "vi": "Hết lịch sử — op.gg giữ %1$@ trận gần nhất.",
+  "zh-tw": "歷史結束 — op.gg 保留最近 %1$@ 場遊戲。"
+ },
+ "App.summoner.gameCount": {
+  "en": "%1$@ games",
+  "ja": "%1$@ 試合",
+  "ko": "%1$@ 게임",
+  "vi": "%1$@ trận",
+  "zh-tw": "%1$@ 場"
+ },
+ "App.summoner.goldLeft": {
+  "en": "Gold left",
+  "ja": "残りゴールド",
+  "ko": "남은 골드",
+  "vi": "Vàng còn",
+  "zh-tw": "剩餘金幣"
+ },
+ "App.summoner.hoursAgo": {
+  "en": "%1$@h ago",
+  "ja": "%1$@時間前",
+  "ko": "%1$@시간 전",
+  "vi": "%1$@ giờ trước",
+  "zh-tw": "%1$@ 小時前"
+ },
+ "App.summoner.justNow": {
+  "en": "just now",
+  "ja": "たった今",
+  "ko": "방금",
+  "vi": "vừa xong",
+  "zh-tw": "剛剛"
+ },
+ "App.summoner.level": {
+  "en": "Level",
+  "ja": "レベル",
+  "ko": "레벨",
+  "vi": "Cấp",
+  "zh-tw": "等級"
+ },
+ "App.summoner.loadingBoard": {
+  "en": "Loading boards for 8 players…",
+  "ja": "8人のプレイヤーのボードを読み込み中…",
+  "ko": "8명 플레이어 보드 불러오는 중…",
+  "vi": "Đang tải bảng của 8 người chơi…",
+  "zh-tw": "正在載入 8 位玩家的棋盤…"
+ },
+ "App.summoner.lose": {
+  "en": "Loss",
+  "ja": "敗",
+  "ko": "패",
+  "vi": "Thua",
+  "zh-tw": "敗"
+ },
+ "App.summoner.loseSuffix": {
+  "en": "loss",
+  "ja": "敗",
+  "ko": "패",
+  "vi": "thua",
+  "zh-tw": "敗"
+ },
+ "App.summoner.lpFormat": {
+  "en": "%1$@LP",
+  "ja": "%1$@LP",
+  "ko": "%1$@LP",
+  "vi": "%1$@LP",
+  "zh-tw": "%1$@LP"
+ },
+ "App.summoner.lpPoints": {
+  "en": "LP",
+  "ja": "LP",
+  "ko": "LP 점수",
+  "vi": "Điểm LP",
+  "zh-tw": "LP"
+ },
+ "App.summoner.minutesAgo": {
+  "en": "%1$@ min ago",
+  "ja": "%1$@分前",
+  "ko": "%1$@분 전",
+  "vi": "%1$@ phút trước",
+  "zh-tw": "%1$@ 分鐘前"
+ },
+ "App.summoner.minutesSeconds": {
+  "en": "%1$@m %2$@s",
+  "ja": "%1$@分%2$@秒",
+  "ko": "%1$@분 %2$@초",
+  "vi": "%1$@ phút %2$@ giây",
+  "zh-tw": "%1$@ 分 %2$@ 秒"
+ },
+ "App.summoner.mostAugments": {
+  "en": "Most augments",
+  "ja": "最も多いオーグメント",
+  "ko": "가장 많은 증강체",
+  "vi": "Lõi nhiều nhất",
+  "zh-tw": "最常使用增幅裝置"
+ },
+ "App.summoner.nameTag": {
+  "en": "Name#TAG",
+  "ja": "名前#タグ",
+  "ko": "이름#태그",
+  "vi": "Tên#TAG",
+  "zh-tw": "名稱#標籤"
+ },
+ "App.summoner.noBoard": {
+  "en": "op.gg no longer has the board for this match.",
+  "ja": "op.ggにはこの試合のボードデータが残っていません。",
+  "ko": "op.gg에 더 이상 이 게임의 보드 데이터가 없습니다.",
+  "vi": "op.gg không còn giữ bảng của trận này.",
+  "zh-tw": "op.gg 已無此場遊戲的棋盤資料。"
+ },
+ "App.summoner.noGames": {
+  "en": "This player has no games recorded by op.gg yet.",
+  "ja": "このプレイヤーにはまだ op.gg に記録されたゲームがありません。",
+  "ko": "이 플레이어는 아직 op.gg에 기록된 게임이 없습니다.",
+  "vi": "Người chơi này chưa có trận nào được op.gg thống kê.",
+  "zh-tw": "此玩家尚無 op.gg 記錄的遊戲。"
+ },
+ "App.summoner.noLookup": {
+  "en": "No lookup yet",
+  "ja": "まだ検索なし",
+  "ko": "아직 검색 없음",
+  "vi": "Chưa tra cứu ai",
+  "zh-tw": "尚未查詢"
+ },
+ "App.summoner.noLookupDesc": {
+  "en": "Type a name for letter-by-letter suggestions, or enter Name#TAG and search to see rank, match history and LP chart.",
+  "ja": "名前を入力すると文字ごとに候補が表示されます。または名前#タグを入力して検索し、ランク、対戦履歴、LPチャートを確認してください。",
+  "ko": "이름을 입력하면 글자별로 추천이 표시되거나, 이름#태그를 입력하고 검색하여 랭크, 전적 및 LP 차트를 확인하세요.",
+  "vi": "Gõ tên để nhận gợi ý theo từng chữ cái, hoặc nhập Tên#TAG rồi tìm để xem xếp hạng, lịch sử đấu và biểu đồ LP.",
+  "zh-tw": "輸入名稱以獲得逐字建議，或輸入名稱#標籤並搜尋以查看排名、比賽歷史和 LP 圖表。"
+ },
+ "App.summoner.noMatches": {
+  "en": "No matches yet",
+  "ja": "まだ試合なし",
+  "ko": "아직 게임 없음",
+  "vi": "Chưa có trận nào",
+  "zh-tw": "尚無比賽"
+ },
+ "App.summoner.noMatchesDesc": {
+  "en": "This mode has no matches in the player's history.",
+  "ja": "このモードではこのプレイヤーの履歴に試合がありません。",
+  "ko": "이 모드에서는 이 플레이어의 기록에 게임이 없습니다.",
+  "vi": "Chế độ này không có trận nào trong lịch sử của người chơi.",
+  "zh-tw": "此模式在此玩家的歷史記錄中沒有任何比賽。"
+ },
+ "App.summoner.ofServer": {
+  "en": "of server",
+  "ja": "サーバーの",
+  "ko": "서버의",
+  "vi": "của máy chủ",
+  "zh-tw": "伺服器的"
+ },
+ "App.summoner.placementDistribution": {
+  "en": "Placement distribution",
+  "ja": "順位分布",
+  "ko": "순위 분포",
+  "vi": "Phân bố thứ hạng",
+  "zh-tw": "名次分佈"
+ },
+ "App.summoner.previousSeason": {
+  "en": "Previous season",
+  "ja": "前のシーズン",
+  "ko": "이전 시즌",
+  "vi": "Mùa trước",
+  "zh-tw": "上一賽季"
+ },
+ "App.summoner.recordFormat": {
+  "en": "%1$@W %2$@L · %3$@ LP",
+  "ja": "%1$@W %2$@L · %3$@ LP",
+  "ko": "%1$@W %2$@L · %3$@ LP",
+  "vi": "%1$@W %2$@L · %3$@ LP",
+  "zh-tw": "%1$@W %2$@L · %3$@ LP"
+ },
+ "App.summoner.round": {
+  "en": "Round %1$@",
+  "ja": "ラウンド %1$@",
+  "ko": "라운드 %1$@",
+  "vi": "Vòng %1$@",
+  "zh-tw": "回合 %1$@"
+ },
+ "App.summoner.searchHint": {
+  "en": "Type a few letters for instant suggestions, or enter the full Name#TAG and search. Data comes directly from op.gg.",
+  "ja": "数文字入力するとすぐに候補が表示されます。または名前#タグを完全に入力して検索してください。データは op.gg から直接取得されます。",
+  "ko": "몇 글자만 입력하면 바로 추천이 표시되거나, 이름#태그를 전체 입력하고 검색하세요. 데이터는 op.gg에서 직접 가져옵니다.",
+  "vi": "Gõ vài chữ cái để gợi ý hiện ra ngay, hoặc nhập đủ Tên#TAG rồi bấm tìm. Dữ liệu lấy trực tiếp từ op.gg.",
+  "zh-tw": "輸入幾個字母即可立即顯示建議，或輸入完整的名称#標籤並搜尋。資料直接來自 op.gg。"
+ },
+ "App.summoner.searchPlayer": {
+  "en": "Search player",
+  "ja": "プレイヤー検索",
+  "ko": "플레이어 검색",
+  "vi": "Tìm kiếm người chơi",
+  "zh-tw": "搜尋玩家"
+ },
+ "App.summoner.searching": {
+  "en": "Looking up %1$@…",
+  "ja": "%1$@を検索中…",
+  "ko": "%1$@ 검색 중…",
+  "vi": "Đang tra %1$@…",
+  "zh-tw": "正在查詢 %1$@…"
+ },
+ "App.summoner.seconds": {
+  "en": "%1$@s",
+  "ja": "%1$@秒",
+  "ko": "%1$@초",
+  "vi": "%1$@ giây",
+  "zh-tw": "%1$@ 秒"
+ },
+ "App.summoner.server": {
+  "en": "Server",
+  "ja": "サーバー",
+  "ko": "서버",
+  "vi": "Máy chủ",
+  "zh-tw": "伺服器"
+ },
+ "App.summoner.serverLevel": {
+  "en": "Server %1$@ · Level %2$@",
+  "ja": "サーバー %1$@ · レベル %2$@",
+  "ko": "서버 %1$@ · 레벨 %2$@",
+  "vi": "Máy chủ %1$@ · Cấp %2$@",
+  "zh-tw": "伺服器 %1$@ · 等級 %2$@"
+ },
+ "App.summoner.top4": {
+  "en": "Top 4",
+  "ja": "Top 4",
+  "ko": "Top 4",
+  "vi": "Top 4",
+  "zh-tw": "Top 4"
+ },
+ "App.summoner.updated": {
+  "en": "Updated %1$@",
+  "ja": "更新 %1$@",
+  "ko": "업데이트 %1$@",
+  "vi": "Cập nhật %1$@",
+  "zh-tw": "更新 %1$@"
+ },
+ "App.summoner.updating": {
+  "en": "Updating",
+  "ja": "更新中",
+  "ko": "갱신 중",
+  "vi": "Đang cập nhật",
+  "zh-tw": "更新中"
+ },
+ "App.tab.augments": {
+  "en": "Augments",
+  "ja": "オーグメント",
+  "ko": "증강",
+  "vi": "Lõi",
+  "zh-tw": "增幅裝置"
+ },
+ "App.tagline.augments": {
+  "en": "Augment picks",
+  "ja": "オーグメント選択",
+  "ko": "증강 선택",
+  "vi": "Lõi nâng cấp",
+  "zh-tw": "增幅裝置選擇"
+ },
+ "App.tagline.comps": {
+  "en": "Top comps for set 18",
+  "ja": "シーズン18の最強デッキ",
+  "ko": "시즌 18 최적 덱",
+  "vi": "Đội hình OP mùa 18",
+  "zh-tw": "第18季最強陣容"
+ },
+ "App.tagline.items": {
+  "en": "Items & combos",
+  "ja": "アイテムとコンボ",
+  "ko": "아이템 & 조합",
+  "vi": "Trang bị & combo",
+  "zh-tw": "道具與組合"
+ },
+ "App.tagline.traits": {
+  "en": "Origins / Classes",
+  "ja": "オリジン / クラス",
+  "ko": "계열 / 직업",
+  "vi": "Tộc / Hệ",
+  "zh-tw": "起源 / 級別"
+ },
+ "App.tool.buffNerf": {
+  "en": "Buff & Nerf",
+  "ja": "バフ/ナーフ",
+  "ko": "버프/너프",
+  "vi": "Tăng & giảm",
+  "zh-tw": "增益/削弱"
+ },
+ "App.tool.summoner": {
+  "en": "Find a player",
+  "ja": "プレイヤー検索",
+  "ko": "소환사 검색",
+  "vi": "Tìm người chơi",
+  "zh-tw": "尋找玩家"
+ },
+ "App.tool.teamBuilder": {
+  "en": "Team Builder",
+  "ja": "デッキ作成",
+  "ko": "덱 구성",
+  "vi": "Dựng đội hình",
+  "zh-tw": "建立隊伍"
+ },
+ "App.trait.activationTiers": {
+  "en": "Activation tiers",
+  "ja": "発動ティア",
+  "ko": "활성화 단계",
+  "vi": "Các mốc kích hoạt",
+  "zh-tw": "啟動階段"
+ },
+ "App.trait.champions": {
+  "en": "Champions in synergy",
+  "ja": "シナジーに属するチャンピオン",
+  "ko": "시너지에 속한 챔피언",
+  "vi": "Tướng thuộc tộc hệ",
+  "zh-tw": "屬於此羈絆的英雄"
+ },
+ "App.trait.compsUsing": {
+  "en": "Comps using this",
+  "ja": "使用デッキ",
+  "ko": "사용 덱",
+  "vi": "Đội hình sử dụng",
+  "zh-tw": "使用此羈絆的陣容"
+ },
+ "App.trait.filter.all": {
+  "en": "All",
+  "ja": "すべて",
+  "ko": "전체",
+  "vi": "Tất cả",
+  "zh-tw": "全部"
+ },
+ "App.trait.filter.class": {
+  "en": "Class",
+  "ja": "クラス",
+  "ko": "직업",
+  "vi": "Nghề",
+  "zh-tw": "職業"
+ },
+ "App.trait.filter.origin": {
+  "en": "Origin",
+  "ja": "オリジン",
+  "ko": "기원",
+  "vi": "Nguồn gốc",
+  "zh-tw": "起源"
+ },
+ "App.trait.noData": {
+  "en": "No synergy data",
+  "ja": "シナジーデータなし",
+  "ko": "시너지 데이터 없음",
+  "vi": "Không có dữ liệu tộc hệ",
+  "zh-tw": "無羈絆資料"
+ },
+ "App.trait.sort.winRate": {
+  "en": "Win",
+  "ja": "勝",
+  "ko": "승",
+  "vi": "Thắng",
+  "zh-tw": "勝"
+ },
+ "App.trait.statFormat": {
+  "en": "%1$@ games · avg %2$@",
+  "ja": "%1$@ 試合 · 平均 %2$@",
+  "ko": "%1$@ 게임 · 평균 %2$@",
+  "vi": "%1$@ trận · hạng TB %2$@",
+  "zh-tw": "%1$@ 場 · 平均 %2$@"
+ },
+ "App.trait.statsByTier": {
+  "en": "stats by tier",
+  "ja": "ティア別統計",
+  "ko": "단계별 통계",
+  "vi": "số liệu theo mốc",
+  "zh-tw": "依階段統計"
+ },
+ "App.trait.subtitle": {
+  "en": "%1$@ is being measured",
+  "ja": "%1$@ シナジーを計測中",
+  "ko": "%1$@ 시너지 측정 중",
+  "vi": "%1$@ tộc hệ đang được đo",
+  "zh-tw": "正在測量 %1$@ 個羈絆"
+ },
+ "App.trait.title": {
+  "en": "Origins / Classes",
+  "ja": "オリジン / クラス",
+  "ko": "계열 / 직업",
+  "vi": "Tộc / Hệ",
+  "zh-tw": "起源 / 級別"
+ },
+ "App.trait.winUnit": {
+  "en": "WIN",
+  "ja": "勝",
+  "ko": "승",
+  "vi": "THẮNG",
+  "zh-tw": "勝"
+ },
+ "Badge.easy": {
+  "en": "Easy",
+  "ja": "簡単",
+  "ko": "쉬움",
+  "vi": "Dễ",
+  "zh-tw": "容易"
+ },
+ "Badge.hard": {
+  "en": "Hard",
+  "ja": "難しい",
+  "ko": "어려움",
+  "vi": "Khó",
+  "zh-tw": "困難"
+ },
+ "Badge.normal": {
+  "en": "Normal",
+  "ja": "ノーマル",
+  "ko": "보통",
+  "vi": "Bình thường",
+  "zh-tw": "普通"
+ },
+ "BuffAndNerf.adjust": {
+  "en": "Adjust",
+  "ja": "調整",
+  "ko": "조정",
+  "vi": "Điều chỉnh",
+  "zh-tw": "調整"
+ },
+ "BuffAndNerf.all": {
+  "en": "All",
+  "ja": "すべて",
+  "ko": "전체",
+  "vi": "Tất cả",
+  "zh-tw": "全部"
+ },
+ "BuffAndNerf.armor": {
+  "en": "Armor",
+  "ja": "防御力",
+  "ko": "방어력",
+  "vi": "Giáp",
+  "zh-tw": "盔甲"
+ },
+ "BuffAndNerf.attackDamage": {
+  "en": "Attack Damage",
+  "ja": "攻撃力",
+  "ko": "공격력",
+  "vi": "Sát thương Đòn đánh",
+  "zh-tw": "攻擊傷害"
+ },
+ "BuffAndNerf.attackRange": {
+  "en": "Attack Range",
+  "ja": "攻撃範囲",
+  "ko": "공격 사거리",
+  "vi": "Tầm đánh",
+  "zh-tw": "攻擊範圍"
+ },
+ "BuffAndNerf.attackSpeed": {
+  "en": "Attack Speed",
+  "ja": "攻撃速度",
+  "ko": "공격 속도",
+  "vi": "Tốc độ đánh",
+  "zh-tw": "攻擊速度"
+ },
+ "BuffAndNerf.augment": {
+  "en": "Augments",
+  "ja": "オーグメント",
+  "ko": "증강체",
+  "vi": "Lõi Công Nghệ",
+  "zh-tw": "增幅裝置"
+ },
+ "BuffAndNerf.buff": {
+  "en": "Buff",
+  "ja": "バフ",
+  "ko": "버프",
+  "vi": "Tăng sức mạnh",
+  "zh-tw": "增益"
+ },
+ "BuffAndNerf.champion": {
+  "en": "Champions",
+  "ja": "チャンピオン",
+  "ko": "챔피언",
+  "vi": "Tướng",
+  "zh-tw": "英雄"
+ },
+ "BuffAndNerf.dps": {
+  "en": "DPS",
+  "ja": "DPS",
+  "ko": "DPS",
+  "vi": "DPS",
+  "zh-tw": "秒傷"
+ },
+ "BuffAndNerf.health": {
+  "en": "Health",
+  "ja": "体力",
+  "ko": "체력",
+  "vi": "Máu",
+  "zh-tw": "血量"
+ },
+ "BuffAndNerf.item": {
+  "en": "Items",
+  "ja": "アイテム",
+  "ko": "아이템",
+  "vi": "Trang bị",
+  "zh-tw": "道具"
+ },
+ "BuffAndNerf.magicResist": {
+  "en": "Magic Resist",
+  "ja": "魔法防御力",
+  "ko": "마법 저항력",
+  "vi": "Kháng phép",
+  "zh-tw": "魔法防禦"
+ },
+ "BuffAndNerf.nerf": {
+  "en": "Nerf",
+  "ja": "ナーフ",
+  "ko": "너프",
+  "vi": "Giảm sức mạnh",
+  "zh-tw": "削弱"
+ },
+ "BuffAndNerf.search": {
+  "en": "Search",
+  "ja": "検索",
+  "ko": "검색",
+  "vi": "Tìm kiếm",
+  "zh-tw": "搜尋"
+ },
+ "BuffAndNerf.skill": {
+  "en": "Skill",
+  "ja": "スキル",
+  "ko": "스킬",
+  "vi": "Kỹ năng",
+  "zh-tw": "技能"
+ },
+ "BuffAndNerf.synergy": {
+  "en": "Synergies",
+  "ja": "シナジー",
+  "ko": "시너지",
+  "vi": "Tộc Hệ",
+  "zh-tw": "羈絆"
+ },
+ "Community.Write.description": {
+  "en": "Description",
+  "ja": "説明",
+  "ko": "설명",
+  "vi": "Mô tả",
+  "zh-tw": "描述"
+ },
+ "ErrorPage.retry": {
+  "en": "Retry",
+  "ja": "もう一度試す",
+  "ko": "재시도",
+  "vi": "Thử lại",
+  "zh-tw": "重試"
+ },
+ "GameGuide.blackthornData.costOption": {
+  "en": "{cost}-cost",
+  "ja": "{cost}コスト",
+  "ko": "{cost}코스트",
+  "vi": "{cost} vàng",
+  "zh-tw": "{cost}費"
+ },
+ "GameGuide.blackthornData.manaRegen": {
+  "en": "Mana Regen",
+  "ja": "マナ自動回復",
+  "ko": "마나 재생",
+  "vi": "Hồi Năng Lượng",
+  "zh-tw": "魔力回復"
+ },
+ "GameGuide.portalId.Unique": {
+  "en": "Unique",
+  "ja": "ユニーク",
+  "ko": "유니크",
+  "vi": "Độc nhất",
+  "zh-tw": "獨特"
+ },
+ "GameGuide.rewardItem.bronze": {
+  "en": "Bronze",
+  "ja": "ブロンズ",
+  "ko": "브론즈",
+  "vi": "Đồng",
+  "zh-tw": "青銅"
+ },
+ "HomeContent.championTierList": {
+  "en": "Champion Tier List",
+  "ja": "チャンピオンティアリスト",
+  "ko": "챔피언 티어 리스트",
+  "vi": "Bảng xếp hạng tướng",
+  "zh-tw": "英雄梯隊榜"
+ },
+ "HomeSummary.matches": {
+  "en": "Matches",
+  "ja": "マッチ",
+  "ko": "경기",
+  "vi": "Trận",
+  "zh-tw": "對戰"
+ },
+ "HomeSummary.totalPlayed": {
+  "en": "Total Played",
+  "ja": "合計プレイ数",
+  "ko": "전체 게임 수",
+  "vi": "Tổng số trận đã chơi",
+  "zh-tw": "總遊玩數"
+ },
+ "HomeSummary.unranked": {
+  "en": "Unranked",
+  "ja": "ランク外",
+  "ko": "언랭크",
+  "vi": "Chưa xếp hạng",
+  "zh-tw": "未定級"
+ },
+ "HomeSummary.winRate": {
+  "en": "Win Rate",
+  "ja": "勝率",
+  "ko": "순방 확률",
+  "vi": "Tỉ lệ thắng",
+  "zh-tw": "勝率"
+ },
+ "Layout.setGuide": {
+  "en": "Set {season}",
+  "ja": "セット{season}の紹介",
+  "ko": "시즌 {season} 소개",
+  "vi": "Mùa {season}",
+  "zh-tw": "第 {season} 季"
+ },
+ "MetaTrends.champion": {
+  "en": "Champion",
+  "ja": "チャンピオン",
+  "ko": "챔피언",
+  "vi": "Tướng",
+  "zh-tw": "英雄"
+ },
+ "MetaTrends.comps": {
+  "en": "Comps",
+  "ja": "デッキ",
+  "ko": "덱",
+  "vi": "Đội hình",
+  "zh-tw": "陣容"
+ },
+ "MetaTrends.item": {
+  "en": "Item",
+  "ja": "アイテム",
+  "ko": "아이템",
+  "vi": "Trang bị",
+  "zh-tw": "道具"
+ },
+ "MetaTrends.synergy": {
+  "en": "Synergy",
+  "ja": "シナジー",
+  "ko": "시너지",
+  "vi": "Tộc Hệ",
+  "zh-tw": "羈絆"
+ },
+ "MetaTrendsAugments.gold": {
+  "en": "Gold",
+  "ja": "ゴールド",
+  "ko": "골드",
+  "vi": "Vàng",
+  "zh-tw": "金幣"
+ },
+ "MetaTrendsAugments.prism": {
+  "en": "Prism",
+  "ja": "プリズマティック",
+  "ko": "프리즘",
+  "vi": "Kim Cương",
+  "zh-tw": "稜鏡"
+ },
+ "MetaTrendsAugments.silver": {
+  "en": "Silver",
+  "ja": "シルバー",
+  "ko": "실버",
+  "vi": "Bạc",
+  "zh-tw": "銀級"
+ },
+ "MetaTrendsChampion.games": {
+  "en": "Games",
+  "ja": "試合",
+  "ko": "게임 수",
+  "vi": "Trận",
+  "zh-tw": "比賽"
+ },
+ "MetaTrendsChampion.top4Rate": {
+  "en": "Top 4 rate",
+  "ja": "順位キープ確率",
+  "ko": "순방 확률",
+  "vi": "Tỉ lệ top 4",
+  "zh-tw": "前四名率"
+ },
+ "MetaTrendsComps.lastHourWithGames": {
+  "en": "This data is from the analysis of {games} games in the last {hour} hours.",
+  "ja": "直近{hour}時間の{games}試合を分析したデータです。",
+  "ko": "최근 {hour}시간 동안 {games} 게임을 분석한 데이터입니다.",
+  "vi": "Dữ liệu này được phân tích từ {games} trận trong {hour} giờ vừa qua.",
+  "zh-tw": "此數據來自對過去 {hour} 小時內 {games} 場比賽的分析。"
+ },
+ "MetaTrendsItem.artifact": {
+  "en": "Artifact",
+  "ja": "アーティファクト",
+  "ko": "유물",
+  "vi": "Trang bị tạo tác",
+  "zh-tw": "神器"
+ },
+ "MetaTrendsItem.component": {
+  "en": "Component",
+  "ja": "レシピ",
+  "ko": "조합",
+  "vi": "Trang bị thành phần",
+  "zh-tw": "組件"
+ },
+ "MetaTrendsItem.core": {
+  "en": "Core",
+  "ja": "コア",
+  "ko": "핵심",
+  "vi": "Cốt lõi",
+  "zh-tw": "核心"
+ },
+ "MetaTrendsItem.emblem": {
+  "en": "Emblem",
+  "ja": "エンブレム",
+  "ko": "상징",
+  "vi": "Ấn",
+  "zh-tw": "徽章"
+ },
+ "MetaTrendsItem.radiant": {
+  "en": "Radiant",
+  "ja": "レディアント",
+  "ko": "찬란한",
+  "vi": "Trang bị ánh sáng",
+  "zh-tw": "聖光"
+ },
+ "MetaTrendsSynergy.class": {
+  "en": "Class",
+  "ja": "クラス",
+  "ko": "직업",
+  "vi": "Hệ",
+  "zh-tw": "級別"
+ },
+ "MetaTrendsSynergy.origin": {
+  "en": "Origin",
+  "ja": "オリジン",
+  "ko": "계열",
+  "vi": "Tộc",
+  "zh-tw": "起源"
+ },
+ "Region.name@br": {
+  "en": "Brazil Server (BR)",
+  "ja": "ブラジルサーバー (BR)",
+  "ko": "브라질 서버 (BR)",
+  "vi": "Máy chủ Brazil (BR)",
+  "zh-tw": "巴西伺服器 (BR)"
+ },
+ "Region.name@eune": {
+  "en": "Europe Nordic & East Server (EUNE)",
+  "ja": "北・東ヨーロッパサーバー (EUNE)",
+  "ko": "북유럽 및 동유럽 서버 (EUNE)",
+  "vi": "Máy chủ Bắc và Đông Âu (EUNE)",
+  "zh-tw": "北歐和東歐伺服器 (EUNE)"
+ },
+ "Region.name@euw": {
+  "en": "Europe West Server (EUW)",
+  "ja": "西ヨーロッパサーバー (EUW)",
+  "ko": "서유럽 서버 (EUW)",
+  "vi": "Máy chủ Tây Âu (EUW)",
+  "zh-tw": "西歐伺服器 (EUW)"
+ },
+ "Region.name@global": {
+  "en": "All Servers",
+  "ja": "すべてのサーバー",
+  "ko": "서버 전체",
+  "vi": "Tất cả máy chủ",
+  "zh-tw": "所有伺服器"
+ },
+ "Region.name@jp": {
+  "en": "Japan Server (JP)",
+  "ja": "日本サーバー (JP)",
+  "ko": "일본 서버 (JP)",
+  "vi": "Máy chủ Nhật Bản (JP)",
+  "zh-tw": "日本伺服器 (JP)"
+ },
+ "Region.name@kr": {
+  "en": "Korea Server (KR)",
+  "ja": "韓国サーバー (KR)",
+  "ko": "한국 서버 (KR)",
+  "vi": "Máy chủ Hàn Quốc (KR)",
+  "zh-tw": "韓國伺服器 (KR)"
+ },
+ "Region.name@lan": {
+  "en": "Latin America North Server (LAN)",
+  "ja": "ラテンアメリカ北部サーバー (LAN)",
+  "ko": "라틴 아메리카 북부 서버 (LAN)",
+  "vi": "Máy chủ Bắc Mỹ Latinh (LAN)",
+  "zh-tw": "拉丁美洲北部伺服器 (LAN)"
+ },
+ "Region.name@las": {
+  "en": "Latin America South Server (LAS)",
+  "ja": "ラテンアメリカ南部サーバー (LAS)",
+  "ko": "라틴 아메리카 남부 서버 (LAS)",
+  "vi": "Máy chủ Nam Mỹ Latinh (LAS)",
+  "zh-tw": "拉丁美洲南部伺服器 (LAS)"
+ },
+ "Region.name@me": {
+  "en": "Middle East Server (ME)",
+  "ja": "中東サーバー (ME)",
+  "ko": "중동 서버 (ME)",
+  "vi": "Máy chủ Trung Đông (ME)",
+  "zh-tw": "中東伺服器 (ME)"
+ },
+ "Region.name@na": {
+  "en": "North America Server (NA)",
+  "ja": "北アメリカサーバー (NA)",
+  "ko": "북미 서버 (NA)",
+  "vi": "Máy chủ Bắc Mỹ (NA)",
+  "zh-tw": "北美伺服器 (NA)"
+ },
+ "Region.name@oce": {
+  "en": "Oceania Server (OCE)",
+  "ja": "オセアニアサーバー (OCE)",
+  "ko": "오세아니아 서버 (OCE)",
+  "vi": "Máy chủ Châu Đại Dương (OCE)",
+  "zh-tw": "大洋洲伺服器 (OCE)"
+ },
+ "Region.name@other": {
+  "en": "Unknown Server",
+  "ja": "不明なサーバー",
+  "ko": "알 수 없는 서버",
+  "vi": "Máy chủ không xác định",
+  "zh-tw": "未知伺服器"
+ },
+ "Region.name@ru": {
+  "en": "Russia Server (RU)",
+  "ja": "ロシアサーバー (RU)",
+  "ko": "러시아 서버 (RU)",
+  "vi": "Máy chủ Nga (RU)",
+  "zh-tw": "俄羅斯伺服器 (RU)"
+ },
+ "Region.name@sea": {
+  "en": "Southeast Asia Server (SEA)",
+  "ja": "東南アジアサーバー (SEA)",
+  "ko": "동남아시아 서버 (SEA)",
+  "vi": "Máy chủ Đông Nam Á (SEA)",
+  "zh-tw": "東南亞伺服器 (SEA)"
+ },
+ "Region.name@tr": {
+  "en": "Türkiye Server (TR)",
+  "ja": "トルコサーバー (TR)",
+  "ko": "튀르키예 서버 (TR)",
+  "vi": "Máy chủ Thổ Nhĩ Kỳ (TR)",
+  "zh-tw": "土耳其伺服器 (TR)"
+ },
+ "Region.name@tw": {
+  "en": "Taiwan Server (TW)",
+  "ja": "台湾サーバー (TW)",
+  "ko": "대만 서버 (TW)",
+  "vi": "Máy chủ Đài Loan (TW)",
+  "zh-tw": "台灣伺服器 (TW)"
+ },
+ "Region.name@vn": {
+  "en": "Vietnam Server (VN)",
+  "ja": "ベトナムサーバー (VN)",
+  "ko": "베트남 서버 (VN)",
+  "vi": "Máy chủ Việt Nam (VN)",
+  "zh-tw": "越南伺服器 (VN)"
+ },
+ "Sample.case_2@other": {
+  "en": "Unknown",
+  "ja": "不明",
+  "ko": "알 수 없음",
+  "vi": "Không xác định",
+  "zh-tw": "未知"
+ },
+ "Summoner.all": {
+  "en": "All",
+  "ja": "すべて",
+  "ko": "전체",
+  "vi": "Tất cả",
+  "zh-tw": "全部"
+ },
+ "Summoner.allCosts": {
+  "en": "All Costs",
+  "ja": "すべてのコスト",
+  "ko": "전체 코스트",
+  "vi": "Mọi mức giá",
+  "zh-tw": "全部費用"
+ },
+ "Summoner.avgPlacement": {
+  "en": "Avg. Place",
+  "ja": "平均ランク",
+  "ko": "평균 순위",
+  "vi": "Vị trí TB",
+  "zh-tw": "平均排名"
+ },
+ "Summoner.buttonRenew": {
+  "en": "Update",
+  "ja": "戦績更新",
+  "ko": "전적 갱신",
+  "vi": "Cập nhật",
+  "zh-tw": "更新"
+ },
+ "Summoner.buttonTierGraph": {
+  "en": "Tier Graph",
+  "ja": "ティアグラフ",
+  "ko": "티어 그래프",
+  "vi": "Biểu đồ Xếp hạng",
+  "zh-tw": "層級圖"
+ },
+ "Summoner.doubleUp": {
+  "en": "Double Up",
+  "ja": "ダブルアップ",
+  "ko": "더블업",
+  "vi": "Cặp Đôi Hoàn Hảo",
+  "zh-tw": "雙倍"
+ },
+ "Summoner.hyperRoll": {
+  "en": "Hyper Roll",
+  "ja": "ハイパーロールモード",
+  "ko": "초고속 모드",
+  "vi": "Xúc Xắc Siêu Tốc",
+  "zh-tw": "超級抽抽樂"
+ },
+ "Summoner.moreSeasonTier": {
+  "en": "More Seasons Tier",
+  "ja": "もっと見る",
+  "ko": "더보기",
+  "vi": "Xếp hạng Mùa khác",
+  "zh-tw": "更多賽季等級"
+ },
+ "Summoner.mostChampions": {
+  "en": "Most Champions",
+  "ja": "プレイ数の多いチャンピオン",
+  "ko": "많이 플레이한 챔피언",
+  "vi": "Tướng nhiều nhất",
+  "zh-tw": "最常使用英雄"
+ },
+ "Summoner.mostSynergies": {
+  "en": "Most Synergies",
+  "ja": "プレイ数の多いシナジー",
+  "ko": "많이 플레이한 시너지",
+  "vi": "Tộc Hệ nhiều nhất",
+  "zh-tw": "最常使用羈絆"
+ },
+ "Summoner.ranked": {
+  "en": "Ranked Solo",
+  "ja": "ランクモード",
+  "ko": "랭크 모드",
+  "vi": "Xếp hạng Đơn",
+  "zh-tw": "單人排名賽"
+ },
+ "Summoner.recentGamesTitle": {
+  "en": "Recent {count} Games",
+  "ja": "最近{count}ゲーム",
+  "ko": "최근 {count} 게임",
+  "vi": "{count} trận gần đây",
+  "zh-tw": "最近 {count} 場遊戲"
+ },
+ "Summoner.recentSynergyTitle": {
+  "en": "Recent {count} Games Synergies",
+  "ja": "最近{count}ゲームのシナジー",
+  "ko": "최근 {count} 게임 시너지",
+  "vi": "Tộc Hệ của {count} trận gần đây",
+  "zh-tw": "最近 {count} 場比賽的羈絆"
+ },
+ "Summoner.tabMatch": {
+  "en": "Match History",
+  "ja": "マッチヒストリー",
+  "ko": "매치 히스토리",
+  "vi": "Lịch Sử Đấu",
+  "zh-tw": "比賽歷史"
+ },
+ "Summoner.tabSummary": {
+  "en": "Summary",
+  "ja": "サマリー",
+  "ko": "종합",
+  "vi": "Tóm tắt",
+  "zh-tw": "概括"
+ },
+ "Summoner.top4Rate": {
+  "en": "Top 4 Rate",
+  "ja": "順位キープ確率",
+  "ko": "순방 확률",
+  "vi": "Tỉ lệ top 4",
+  "zh-tw": "前四名比率"
+ },
+ "SummonerLpHistory.day": {
+  "en": "Daily",
+  "ja": "日別",
+  "ko": "일별",
+  "vi": "theo ngày",
+  "zh-tw": "日別"
+ },
+ "SummonerLpHistory.games": {
+  "en": "{count, plural, one {# Game} other {# Games}}",
+  "ja": "{count, plural, other {#試合}}",
+  "ko": "{count, plural, other {#게임}}",
+  "vi": "{count, plural, other {# trận}}",
+  "zh-tw": "{count, plural, other {#場對戰}}"
+ },
+ "SummonerLpHistory.month": {
+  "en": "This Season",
+  "ja": "シーズン",
+  "ko": "이번 시즌",
+  "vi": "Mùa này",
+  "zh-tw": "賽季"
+ },
+ "SummonerLpHistory.tierGraph": {
+  "en": "Tier Graph",
+  "ja": "ティアグラフ",
+  "ko": "티어 그래프",
+  "vi": "Biểu đồ Xếp hạng",
+  "zh-tw": "層級圖"
+ },
+ "SummonerLpHistory.week": {
+  "en": "Weekly",
+  "ja": "週別",
+  "ko": "주별",
+  "vi": "theo tuần",
+  "zh-tw": "週別"
+ },
+ "TeamBuilder.augment": {
+  "en": "Augment",
+  "ja": "オーグメント",
+  "ko": "증강체",
+  "vi": "Lõi công nghệ",
+  "zh-tw": "增幅裝置"
+ },
+ "TeamBuilder.champion": {
+  "en": "Champion",
+  "ja": "チャンピオン",
+  "ko": "챔피언",
+  "vi": "Tướng",
+  "zh-tw": "英雄"
+ },
+ "TeamBuilder.clearBoard": {
+  "en": "Clear Board",
+  "ja": "リセット",
+  "ko": "초기화",
+  "vi": "Xóa Bàn Cờ",
+  "zh-tw": "清空面板"
+ },
+ "TeamBuilder.coreChampionAndItem": {
+  "en": "Core Champion & Item",
+  "ja": "コアチャンピオン＆アイテム",
+  "ko": "코어 챔피언 & 아이템",
+  "vi": "Tướng chủ lực & Trang bị",
+  "zh-tw": "核心英雄和道具"
+ },
+ "TeamBuilder.gold": {
+  "en": "Gold",
+  "ja": "ゴールド",
+  "ko": "골드",
+  "vi": "Vàng",
+  "zh-tw": "金幣"
+ },
+ "TeamBuilder.item": {
+  "en": "Item",
+  "ja": "アイテム",
+  "ko": "아이템",
+  "vi": "Vật phẩm",
+  "zh-tw": "商品"
+ },
+ "TeamBuilder.name": {
+  "en": "Name",
+  "ja": "名前",
+  "ko": "이름",
+  "vi": "Tên",
+  "zh-tw": "名稱"
+ },
+ "TeamBuilder.positionFrequency": {
+  "en": "Freq.",
+  "ja": "頻度",
+  "ko": "빈도",
+  "vi": "Tần suất",
+  "zh-tw": "頻率"
+ },
+ "TeamBuilder.positionWinRate": {
+  "en": "Win rate",
+  "ja": "勝率",
+  "ko": "승률",
+  "vi": "Tỷ lệ thắng",
+  "zh-tw": "勝率"
+ },
+ "TeamBuilder.saveImage": {
+  "en": "Save Image",
+  "ja": "画像を保存",
+  "ko": "이미지 저장",
+  "vi": "Lưu hình ảnh",
+  "zh-tw": "儲存圖片"
+ },
+ "TeamBuilder.synergy": {
+  "en": "Synergy",
+  "ja": "シナジー",
+  "ko": "시너지",
+  "vi": "Tộc Hệ",
+  "zh-tw": "羈絆"
+ },
+ "Tier.tier@bronze": {
+  "en": "Bronze",
+  "ja": "ブロンズ",
+  "ko": "브론즈",
+  "vi": "Đồng",
+  "zh-tw": "銅牌"
+ },
+ "Tier.tier@challenger": {
+  "en": "Challenger",
+  "ja": "チャレンジャー",
+  "ko": "챌린저",
+  "vi": "Thách Đấu",
+  "zh-tw": "菁英"
+ },
+ "Tier.tier@diamond": {
+  "en": "Diamond",
+  "ja": "ダイヤモンド",
+  "ko": "다이아몬드",
+  "vi": "Kim Cương",
+  "zh-tw": "鑽石"
+ },
+ "Tier.tier@emerald": {
+  "en": "Emerald",
+  "ja": "エメラルド",
+  "ko": "에메랄드",
+  "vi": "Lục Bảo",
+  "zh-tw": "翡翠"
+ },
+ "Tier.tier@gold": {
+  "en": "Gold",
+  "ja": "ゴールド",
+  "ko": "골드",
+  "vi": "Vàng",
+  "zh-tw": "金牌"
+ },
+ "Tier.tier@grandmaster": {
+  "en": "Grandmaster",
+  "ja": "グランドマスター",
+  "ko": "그랜드마스터",
+  "vi": "Đại Cao Thủ",
+  "zh-tw": "宗師"
+ },
+ "Tier.tier@iron": {
+  "en": "Iron",
+  "ja": "アイアン",
+  "ko": "아이언",
+  "vi": "Sắt",
+  "zh-tw": "鐵牌"
+ },
+ "Tier.tier@master": {
+  "en": "Master",
+  "ja": "マスター",
+  "ko": "마스터",
+  "vi": "Cao Thủ",
+  "zh-tw": "大師"
+ },
+ "Tier.tier@other": {
+  "en": "Unknown",
+  "ja": "不明",
+  "ko": "알수없음",
+  "vi": "Không rõ",
+  "zh-tw": "其他"
+ },
+ "Tier.tier@platinum": {
+  "en": "Platinum",
+  "ja": "プラチナ",
+  "ko": "플래티넘",
+  "vi": "Bạch Kim",
+  "zh-tw": "白金"
+ },
+ "Tier.tier@silver": {
+  "en": "Silver",
+  "ja": "シルバー",
+  "ko": "실버",
+  "vi": "Bạc",
+  "zh-tw": "銀牌"
+ }
+}
