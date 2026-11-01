@@ -96,7 +96,7 @@ private struct CompContent: View {
             VStack(alignment: .leading, spacing: 6) {
                 HStack(spacing: 6) {
                     if let tier = comp.opTier { Chip(text: tier, color: Theme.opTier(tier), filled: true) }
-                    if let level = comp.reroll, level > 0 { Chip(text: L("App.comp.level", level), color: Theme.textSecondary) }
+                    if let level = comp.level { Chip(text: L("App.comp.level", level), color: Theme.textSecondary) }
                     Chip(text: Theme.difficulty(comp.difficulty), color: Color(hex: 0xC07E43))
                     if comp.honey == true { Chip(text: L("App.comp.honey"), color: Theme.gold) }
                 }
@@ -143,7 +143,7 @@ private struct CompContent: View {
         switch option {
         case .early: level = comp.early?.level
         case .middle: level = comp.middle?.level
-        case .final: level = comp.reroll
+        case .final: level = comp.level
         }
         return level.map { L("App.comp.level", $0) } ?? L("App.comp.unknown")
     }

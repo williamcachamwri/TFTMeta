@@ -35,7 +35,7 @@ struct CompsView: View {
     @State private var lastOwnedCount = 0
 
     private var levels: [Int] {
-        Array(Set(repository.dataset.comps.map { $0.reroll ?? 0 })).filter { $0 > 0 }.sorted()
+        Array(Set(repository.dataset.comps.map { $0.level ?? 0 })).filter { $0 > 0 }.sorted()
     }
 
     private var playableComps: [Comp] {
@@ -49,7 +49,7 @@ struct CompsView: View {
         let all = repository.dataset.comps
         return all
             .filter { tier == .all || $0.opTier == tier.rawTier }
-            .filter { level == 0 || ($0.reroll ?? 0) == level }
+            .filter { level == 0 || ($0.level ?? 0) == level }
             .filter { query.isEmpty || matches($0) }
             .sorted { lhs, rhs in
                 switch sort {
@@ -388,7 +388,7 @@ struct CompRow: View {
                                 .strokeBorder(Theme.rarity(lead?.cost), lineWidth: 2)
                         )
                         .shadow(color: Theme.rarity(lead?.cost).opacity(0.3), radius: 4, y: 2)
-                    if let level = comp.reroll, level > 0 {
+                    if let level = comp.level {
                         Text(L("App.comp.level", level))
                             .font(.system(size: 8, weight: .heavy))
                             .foregroundStyle(Theme.textPrimary)

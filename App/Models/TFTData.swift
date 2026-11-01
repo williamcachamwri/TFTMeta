@@ -144,6 +144,12 @@ struct Comp: Codable, Hashable {
     let traits: [CompTrait]
     let early: StageBoard?
     let middle: StageBoard?
+
+    // The bundled snapshot often lacks the reroll badge; the final board size is the level.
+    var level: Int? {
+        if let reroll, reroll > 0 { return reroll }
+        return units.isEmpty ? nil : units.count
+    }
 }
 
 // MARK: - Ranked entity stats
