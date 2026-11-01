@@ -37,31 +37,26 @@ struct ProfileCard: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            // Identity strip: icon bleeds into the tier band
-            HStack(alignment: .bottom, spacing: 0) {
+            HStack(spacing: 12) {
                 RemoteImage(url: profile.icon, contentMode: .fill)
-                    .frame(width: 72, height: 72)
-                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
-                    .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous)
-                        .strokeBorder(tierTint.opacity(0.6), lineWidth: 2.5))
-                    .shadow(color: tierTint.opacity(0.3), radius: 8, y: 4)
-                    .offset(y: 8)
+                    .frame(width: 64, height: 64)
+                    .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
+                    .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous)
+                        .strokeBorder(tierTint.opacity(0.7), lineWidth: 2))
 
-                VStack(alignment: .leading, spacing: 2) {
+                VStack(alignment: .leading, spacing: 3) {
                     Text(profile.displayName)
-                        .font(.system(size: 20, weight: .heavy, design: .rounded))
+                        .font(.system(size: 19, weight: .heavy, design: .rounded))
                         .foregroundStyle(Theme.textPrimary)
                         .lineLimit(1)
                         .minimumScaleFactor(0.7)
 
                     if let standing = profile.standing {
                         Text("\(TierLocal.name(standing.tier)) \(TierLocal.division(standing.division))")
-                            .font(.system(size: 13, weight: .bold))
+                            .font(.system(size: 12, weight: .bold))
                             .foregroundStyle(tierTint)
                     }
                 }
-                .padding(.leading, 12)
-                .padding(.bottom, 12)
 
                 Spacer(minLength: 8)
 
@@ -74,15 +69,12 @@ struct ProfileCard: View {
                             .font(.system(size: 10, weight: .bold))
                             .foregroundStyle(Theme.textTertiary)
                     }
-                    .padding(.trailing, 4)
-                    .padding(.bottom, 12)
                 }
             }
-            .padding(.horizontal, 16)
-            .padding(.top, 16)
+            .padding(16)
 
-            // Stats ribbon: inline, not boxed
             if let standing = profile.standing, standing.gameCount > 0 {
+                Divider().overlay(Theme.separator)
                 HStack(spacing: 0) {
                     statPill(label: L("App.champion.win"), value: Fmt.integer(standing.wins), color: Color(hex: 0x39B57A))
                     Divider().frame(height: 20).overlay(Theme.separator)
@@ -90,13 +82,12 @@ struct ProfileCard: View {
                     Divider().frame(height: 20).overlay(Theme.separator)
                     statPill(label: "Top 4", value: Fmt.percent(standing.winRate, digits: 0), color: Theme.accentBright)
                 }
-                .padding(.vertical, 10)
+                .padding(.vertical, 12)
                 .padding(.horizontal, 16)
-                .background(Theme.surfaceSunken.opacity(0.5))
             }
 
-            // Actions: full-width, edge-to-edge
             if showChartButton || refresh != nil {
+                Divider().overlay(Theme.separator)
                 HStack(spacing: 0) {
                     if let refresh {
                         Button(action: refresh) {
@@ -132,12 +123,11 @@ struct ProfileCard: View {
                     }
                 }
                 .buttonStyle(PressStyle())
-                .background(Theme.surface)
             }
 
-            // Metadata footer
+            Divider().overlay(Theme.separator)
             HStack {
-                Text(L("App.summoner.serverLevel", profile.region.title, profile.level.map { "\($0)" } ?? ""))
+                Text(footerText)
                     .font(.system(size: 10))
                     .foregroundStyle(Theme.textTertiary)
                 Spacer()
@@ -148,15 +138,23 @@ struct ProfileCard: View {
                 }
             }
             .padding(.horizontal, 16)
-            .padding(.vertical, 8)
-            .background(Theme.surfaceSunken.opacity(0.3))
+            .padding(.vertical, 10)
         }
-        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous))
+        .background(Theme.surface)
+        .clipShape(RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous))
         .overlay(RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous)
             .strokeBorder(Theme.separator.opacity(0.5), lineWidth: 1))
     }
 
     private var tierTint: Color { TierLocal.color(profile.standing?.tier) }
+
+    private var footerText: String {
+        var text = profile.region.title
+        if let level = profile.level {
+            text += " · " + L("App.comp.level", level)
+        }
+        return text
+    }
 
     private func statPill(label: String, value: String, color: Color) -> some View {
         VStack(spacing: 2) {
