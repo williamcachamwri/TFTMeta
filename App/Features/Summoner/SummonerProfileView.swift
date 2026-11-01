@@ -330,14 +330,14 @@ private struct MatchListSkeleton: View {
             ForEach(0..<rows, id: \.self) { _ in
                 HStack(alignment: .top, spacing: 10) {
                     VStack(alignment: .leading, spacing: 6) {
-                        RoundedRectangle(cornerRadius: 4).fill(Theme.surfaceRaised.opacity(0.7)).frame(width: 34, height: 17)
-                        RoundedRectangle(cornerRadius: 3).fill(Theme.surfaceRaised.opacity(0.5)).frame(width: 52, height: 9)
-                        RoundedRectangle(cornerRadius: 3).fill(Theme.surfaceRaised.opacity(0.5)).frame(width: 44, height: 9)
+                        SkeletonView(style: .rounded(width: 34, height: 17, cornerRadius: 4))
+                        SkeletonView(style: .rounded(width: 52, height: 9, cornerRadius: 3))
+                        SkeletonView(style: .rounded(width: 44, height: 9, cornerRadius: 3))
                     }
                     .frame(width: 68, alignment: .leading)
                     VStack(alignment: .leading, spacing: 8) {
-                        RoundedRectangle(cornerRadius: 6).fill(Theme.surfaceRaised.opacity(0.5)).frame(height: 22)
-                        RoundedRectangle(cornerRadius: 8).fill(Theme.surfaceRaised.opacity(0.45)).frame(height: 42)
+                        SkeletonView(style: .rounded(height: 22, cornerRadius: 6))
+                        SkeletonView(style: .rounded(height: 42, cornerRadius: 8))
                     }
                     Spacer(minLength: 6)
                 }

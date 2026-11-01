@@ -285,19 +285,13 @@ private struct SearchSkeleton: View {
 
     var body: some View {
         HStack(spacing: 12) {
-            RoundedRectangle(cornerRadius: 14, style: .continuous)
-                .fill(Theme.surfaceRaised.opacity(0.7))
-                .frame(width: 46, height: 46)
+            SkeletonView(style: .rounded(width: 46, height: 46, cornerRadius: 14))
             VStack(alignment: .leading, spacing: 6) {
-                RoundedRectangle(cornerRadius: 4)
-                    .fill(Theme.surfaceRaised.opacity(0.7))
-                    .frame(width: 132, height: 13)
-                RoundedRectangle(cornerRadius: 4)
-                    .fill(Theme.surfaceRaised.opacity(0.5))
-                    .frame(width: 88, height: 11)
+                SkeletonView(style: .text(width: 132, height: 13))
+                SkeletonView(style: .text(width: 88, height: 11))
             }
             Spacer(minLength: 6)
-            ProgressView().tint(Theme.accent)
+            SkeletonView(style: .circle(size: 20))
         }
         .padding(12)
         .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous))

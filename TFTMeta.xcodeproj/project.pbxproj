@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		SK3L370NB71LDF1L37C1E8D2 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SK3L370N4V13W5F0A7C1E8D2 /* SkeletonView.swift */; };
 		0D84661D49ABBF1EBB01AE76 /* i18n.json in Resources */ = {isa = PBXBuildFile; fileRef = 23897306DF75B2D748B0DA65 /* i18n.json */; };
 		106273D67F07816C675BD939 /* OpGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D5C155DA84E25C908C15F /* OpGG.swift */; };
 		1102F510C764525143549616 /* SummonerHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD2EE118D7B5EADB590968F /* SummonerHistory.swift */; };
@@ -86,6 +87,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		SK3L370N4V13W5F0A7C1E8D2 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
 		09D019B86E6041FB3E5A8316 /* CompDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompDetailView.swift; sourceTree = "<group>"; };
 		0E66D79B3D8FDD8AFAD63D2A /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
 		13C0DF4EC7D1C5EBE7423CDF /* RankChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankChartView.swift; sourceTree = "<group>"; };
@@ -322,6 +324,7 @@
 				C7570FF133D84E25C908C15F /* CustomRefreshable.swift */,
 				726F61F2675A6EEA7E8C9F95 /* HexBoard.swift */,
 				H4PT1C5F33D84E25C908C15F /* Haptics.swift */,
+				SK3L370N4V13W5F0A7C1E8D2 /* SkeletonView.swift */,
 				3731B8EA996986C9F6306777 /* Theme.swift */,
 			);
 			path = DesignSystem;
@@ -528,6 +531,7 @@
 				CA189F7A7541EADDBE740C0F /* TeamBuilderView.swift in Sources */,
 				5A8F6BF7608A2BF96B454394 /* Theme.swift in Sources */,
 				H4PT1C5FBF33D84E25C908C15F /* Haptics.swift in Sources */,
+				SK3L370NB71LDF1L37C1E8D2 /* SkeletonView.swift in Sources */,
 				C7570FF1BF33D84E25C908C15F /* CustomRefreshable.swift in Sources */,
 				EDC8478728732EA9135EA7B0 /* TraitDetailView.swift in Sources */,
 				823C6B6479BE9B0229705866 /* TraitsView.swift in Sources */,
