@@ -25,27 +25,6 @@ struct TeamBuilderView: View {
         VStack(spacing: 0) {
             ScrollView(showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 14) {
-                    NavigationLink {
-                        BuildPlannerView()
-                    } label: {
-                        HStack {
-                            Image(systemName: "hammer.fill")
-                                .font(.system(size: 14, weight: .semibold))
-                                .foregroundStyle(Theme.accent)
-                            Text(L("App.builder.planner"))
-                                .font(.system(size: 13, weight: .semibold))
-                                .foregroundStyle(Theme.accent)
-                            Spacer()
-                            Image(systemName: "chevron.right")
-                                .font(.system(size: 11, weight: .bold))
-                                .foregroundStyle(Theme.textTertiary)
-                        }
-                        .padding(12)
-                        .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous))
-                    }
-                    .buttonStyle(PressStyle())
-                    .padding(.horizontal, Theme.gutter)
-
                     BuilderBoardCard(model: model, dataset: dataset)
                     BuilderTraitPanel(tallies: model.traitTallies(dataset: dataset), dataset: dataset)
                     BuilderRosterPanel(model: model, dataset: dataset)

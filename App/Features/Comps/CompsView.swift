@@ -388,7 +388,7 @@ struct CompRow: View {
                                 .strokeBorder(Theme.rarity(lead?.cost), lineWidth: 2)
                         )
                         .shadow(color: Theme.rarity(lead?.cost).opacity(0.3), radius: 4, y: 2)
-                    if let level = comp.reroll {
+                    if let level = comp.reroll, level > 0 {
                         Text(L("App.comp.level", level))
                             .font(.system(size: 8, weight: .heavy))
                             .foregroundStyle(Theme.textPrimary)

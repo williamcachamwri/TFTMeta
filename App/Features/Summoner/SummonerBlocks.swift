@@ -32,108 +32,142 @@ struct ProfileCard: View {
     let profile: SummonerProfile
     var showChartButton = false
     var chart: (() -> AnyView)?
-    /// The reference's "Cập nhật" — re-reads the page instead of serving the cached one.
     var refresh: (() -> Void)?
-    /// Swaps the button for a spinner while that re-read is in flight.
     var isBusy = false
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(alignment: .top, spacing: 12) {
+        VStack(spacing: 0) {
+            // Identity strip: icon bleeds into the tier band
+            HStack(alignment: .bottom, spacing: 0) {
                 RemoteImage(url: profile.icon, contentMode: .fill)
-                    .frame(width: 64, height: 64)
-                    .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
-                    .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous)
-                        .strokeBorder(Theme.separator, lineWidth: 1.5))
+                    .frame(width: 72, height: 72)
+                    .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                    .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous)
+                        .strokeBorder(tierTint.opacity(0.6), lineWidth: 2.5))
+                    .shadow(color: tierTint.opacity(0.3), radius: 8, y: 4)
+                    .offset(y: 8)
 
-                VStack(alignment: .leading, spacing: 4) {
+                VStack(alignment: .leading, spacing: 2) {
                     Text(profile.displayName)
-                        .font(.system(size: 19, weight: .heavy, design: .rounded))
+                        .font(.system(size: 20, weight: .heavy, design: .rounded))
                         .foregroundStyle(Theme.textPrimary)
                         .lineLimit(1)
-                        .minimumScaleFactor(0.75)
-                    Text(L("App.summoner.serverLevel", profile.region.title, profile.level.map { "\($0)" } ?? ""))
-                        .font(.system(size: 12))
-                        .foregroundStyle(Theme.textSecondary)
-                    if let updated = profile.updatedAt {
-                        Text(L("App.summoner.updated", Self.date(updated)))
-                            .font(.system(size: 11))
-                            .foregroundStyle(Theme.textTertiary)
+                        .minimumScaleFactor(0.7)
+
+                    if let standing = profile.standing {
+                        Text("\(TierLocal.name(standing.tier)) \(TierLocal.division(standing.division))")
+                            .font(.system(size: 13, weight: .bold))
+                            .foregroundStyle(tierTint)
                     }
                 }
-                Spacer(minLength: 6)
-            }
+                .padding(.leading, 12)
+                .padding(.bottom, 12)
 
-            TierBadge(standing: profile.standing, ladder: profile.topShare, caption: ladderNote)
+                Spacer(minLength: 8)
 
-            if let standing = profile.standing, standing.gameCount > 0 {
-                HStack(spacing: 0) {
-                    StatColumn(title: L("App.champion.win"), value: Fmt.integer(standing.wins), color: Color(hex: 0x39B57A))
-                    StatColumn(title: L("App.summoner.lose"), value: Fmt.integer(standing.losses), color: Color(hex: 0xE85D75))
-                    StatColumn(title: L("HomeSummary.winRate"), value: Fmt.percent(standing.winRate, digits: 1))
-                    StatColumn(title: L("App.summoner.lpPoints"), value: Fmt.integer(standing.points), color: Theme.gold)
+                if let standing = profile.standing, let points = standing.points {
+                    VStack(alignment: .trailing, spacing: 1) {
+                        Text(Fmt.integer(points))
+                            .font(.system(size: 18, weight: .heavy, design: .rounded))
+                            .foregroundStyle(Theme.gold)
+                        Text("LP")
+                            .font(.system(size: 10, weight: .bold))
+                            .foregroundStyle(Theme.textTertiary)
+                    }
+                    .padding(.trailing, 4)
+                    .padding(.bottom, 12)
                 }
             }
+            .padding(.horizontal, 16)
+            .padding(.top, 16)
 
+            // Stats ribbon: inline, not boxed
+            if let standing = profile.standing, standing.gameCount > 0 {
+                HStack(spacing: 0) {
+                    statPill(label: L("App.champion.win"), value: Fmt.integer(standing.wins), color: Color(hex: 0x39B57A))
+                    Divider().frame(height: 20).overlay(Theme.separator)
+                    statPill(label: L("App.summoner.lose"), value: Fmt.integer(standing.losses), color: Color(hex: 0xE85D75))
+                    Divider().frame(height: 20).overlay(Theme.separator)
+                    statPill(label: "Top 4", value: Fmt.percent(standing.winRate, digits: 0), color: Theme.accentBright)
+                }
+                .padding(.vertical, 10)
+                .padding(.horizontal, 16)
+                .background(Theme.surfaceSunken.opacity(0.5))
+            }
+
+            // Actions: full-width, edge-to-edge
             if showChartButton || refresh != nil {
-                HStack(spacing: 8) {
+                HStack(spacing: 0) {
                     if let refresh {
                         Button(action: refresh) {
-                            actionLabel(isBusy ? L("App.summoner.updating") : L("Summoner.buttonRenew"),
-                                        "arrow.clockwise", filled: true, busy: isBusy)
+                            HStack(spacing: 6) {
+                                if isBusy {
+                                    ProgressView().controlSize(.small).scaleEffect(0.6).tint(Theme.accent)
+                                } else {
+                                    Image(systemName: "arrow.clockwise").font(.system(size: 11, weight: .bold))
+                                }
+                                Text(isBusy ? L("App.summoner.updating") : L("Summoner.buttonRenew"))
+                                    .font(.system(size: 12, weight: .bold))
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 12)
+                            .foregroundStyle(Theme.accent)
                         }
                         .disabled(isBusy)
                     }
+
                     if showChartButton, let chart {
+                        if refresh != nil {
+                            Divider().frame(height: 24).overlay(Theme.separator)
+                        }
                         NavigationLink { chart() } label: {
-                            actionLabel(L("Summoner.buttonTierGraph"), "chart.line.uptrend.xyaxis", filled: false)
+                            HStack(spacing: 6) {
+                                Image(systemName: "chart.line.uptrend.xyaxis").font(.system(size: 11, weight: .bold))
+                                Text(L("Summoner.buttonTierGraph")).font(.system(size: 12, weight: .bold))
+                            }
+                            .frame(maxWidth: .infinity)
+                            .padding(.vertical, 12)
+                            .foregroundStyle(Theme.textSecondary)
                         }
                     }
                 }
                 .buttonStyle(PressStyle())
-                .animation(.easeOut(duration: 0.18), value: isBusy)
+                .background(Theme.surface)
             }
+
+            // Metadata footer
+            HStack {
+                Text(L("App.summoner.serverLevel", profile.region.title, profile.level.map { "\($0)" } ?? ""))
+                    .font(.system(size: 10))
+                    .foregroundStyle(Theme.textTertiary)
+                Spacer()
+                if let updated = profile.updatedAt {
+                    Text(Self.date(updated))
+                        .font(.system(size: 10))
+                        .foregroundStyle(Theme.textTertiary)
+                }
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 8)
+            .background(Theme.surfaceSunken.opacity(0.3))
         }
-        .padding(14)
         .background(Theme.surface, in: RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: Theme.radiusCard, style: .continuous)
+            .strokeBorder(Theme.separator.opacity(0.5), lineWidth: 1))
     }
 
-    /// op.gg only shows a ladder share for the live ranked season; anything older has to
-    /// be named by season so the badge is not read as current.
-    private var ladderNote: String {
-        guard let standing = profile.standing, !profile.standingIsCurrent else { return L("Summoner.ranked") }
-        return standing.seasonLabel ?? L("App.summoner.previousSeason")
-    }
+    private var tierTint: Color { TierLocal.color(profile.standing?.tier) }
 
-    /// op.gg fills the refresh button in tan and leaves the chart button outlined with the same
-    /// tan label — the pair is part of the page's identity, so it is reproduced rather than
-    /// collapsed into one generic action row.
-    private func actionLabel(_ title: String, _ symbol: String, filled: Bool, busy: Bool = false) -> some View {
-        HStack(spacing: 7) {
-            if busy {
-                ProgressView()
-                    .controlSize(.small)
-                    .scaleEffect(0.62)
-                    // Pinned to the icon's box so swapping the two never nudges the row.
-                    .frame(width: 12, height: 12)
-                    .tint(filled ? Color(hex: 0x241B03) : Theme.gold)
-            } else {
-                Image(systemName: symbol).font(.system(size: 12, weight: .bold))
-            }
-            Text(title)
-                .font(.system(size: 13, weight: .bold))
-                .lineLimit(1)
-                .minimumScaleFactor(0.75)
+    private func statPill(label: String, value: String, color: Color) -> some View {
+        VStack(spacing: 2) {
+            Text(value)
+                .font(.system(size: 15, weight: .heavy, design: .rounded))
+                .foregroundStyle(color)
+            Text(label)
+                .font(.system(size: 9, weight: .medium))
+                .foregroundStyle(Theme.textTertiary)
         }
         .frame(maxWidth: .infinity)
-        .padding(.vertical, 11)
-        .background(filled ? Theme.gold.opacity(0.88) : Theme.surfaceSunken,
-                    in: RoundedRectangle(cornerRadius: Theme.radiusChip, style: .continuous))
-        .overlay(
-            RoundedRectangle(cornerRadius: Theme.radiusChip, style: .continuous)
-                .strokeBorder(filled ? Color.clear : Theme.gold.opacity(0.45), lineWidth: 1)
-        )
-        .foregroundStyle(filled ? Color(hex: 0x241B03) : Theme.gold)
     }
 
     private static func date(_ iso: String) -> String {

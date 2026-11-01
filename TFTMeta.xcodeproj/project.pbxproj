@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BP3A2B3CBF4E6F7A8B9C0D3E /* BuildPlannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BP3A2B3C4D5E6F7A8B9C0D3E /* BuildPlannerView.swift */; };
-		BP2A2B3CBF4E6F7A8B9C0D2E /* BuildPlannerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BP2A2B3C4D5E6F7A8B9C0D2E /* BuildPlannerModel.swift */; };
-		BP1A2B3CBF4E6F7A8B9C0D1E /* BuildPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BP1A2B3C4D5E6F7A8B9C0D1E /* BuildPlanner.swift */; };
 		SK3L370NB71LDF1L37C1E8D2 /* SkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SK3L370N4V13W5F0A7C1E8D2 /* SkeletonView.swift */; };
 		0D84661D49ABBF1EBB01AE76 /* i18n.json in Resources */ = {isa = PBXBuildFile; fileRef = 23897306DF75B2D748B0DA65 /* i18n.json */; };
 		106273D67F07816C675BD939 /* OpGG.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD2D5C155DA84E25C908C15F /* OpGG.swift */; };
@@ -90,9 +87,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BP3A2B3C4D5E6F7A8B9C0D3E /* BuildPlannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPlannerView.swift; sourceTree = "<group>"; };
-		BP2A2B3C4D5E6F7A8B9C0D2E /* BuildPlannerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPlannerModel.swift; sourceTree = "<group>"; };
-		BP1A2B3C4D5E6F7A8B9C0D1E /* BuildPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildPlanner.swift; sourceTree = "<group>"; };
 		SK3L370N4V13W5F0A7C1E8D2 /* SkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonView.swift; sourceTree = "<group>"; };
 		09D019B86E6041FB3E5A8316 /* CompDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompDetailView.swift; sourceTree = "<group>"; };
 		0E66D79B3D8FDD8AFAD63D2A /* JSONValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONValue.swift; sourceTree = "<group>"; };
@@ -374,9 +368,6 @@
 			children = (
 				1CB8750AEE23F056D3C1686D /* TeamBuilderModel.swift */,
 				9783930681A1D23E064F5D4F /* TeamBuilderView.swift */,
-				BP1A2B3C4D5E6F7A8B9C0D1E /* BuildPlanner.swift */,
-				BP2A2B3C4D5E6F7A8B9C0D2E /* BuildPlannerModel.swift */,
-				BP3A2B3C4D5E6F7A8B9C0D3E /* BuildPlannerView.swift */,
 			);
 			path = TeamBuilder;
 			sourceTree = "<group>";
@@ -541,9 +532,6 @@
 				5A8F6BF7608A2BF96B454394 /* Theme.swift in Sources */,
 				H4PT1C5FBF33D84E25C908C15F /* Haptics.swift in Sources */,
 				SK3L370NB71LDF1L37C1E8D2 /* SkeletonView.swift in Sources */,
-				BP3A2B3CBF4E6F7A8B9C0D3E /* BuildPlannerView.swift in Sources */,
-				BP2A2B3CBF4E6F7A8B9C0D2E /* BuildPlannerModel.swift in Sources */,
-				BP1A2B3CBF4E6F7A8B9C0D1E /* BuildPlanner.swift in Sources */,
 				C7570FF1BF33D84E25C908C15F /* CustomRefreshable.swift in Sources */,
 				EDC8478728732EA9135EA7B0 /* TraitDetailView.swift in Sources */,
 				823C6B6479BE9B0229705866 /* TraitsView.swift in Sources */,
