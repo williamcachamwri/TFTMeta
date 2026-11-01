@@ -1168,6 +1168,13 @@
 		"vi": "Đang tải lịch sử LP…",
 		"zh-tw": "正在載入 LP 歷史…"
 	},
+	"App.leaderboard.title": {
+		"en": "Ranked Ladder",
+		"ja": "ランクランキング",
+		"ko": "랭킹",
+		"vi": "Bảng xếp hạng",
+		"zh-tw": "積分排行榜"
+	},
 	"App.notice.offline": {
 		"en": "Could not reach op.gg — still using current data.",
 		"ja": "op.ggに接続できませんでした — 現在のデータを使用しています。",
@@ -1594,6 +1601,13 @@
 		"ko": "버프/너프",
 		"vi": "Tăng & giảm",
 		"zh-tw": "增益/削弱"
+	},
+	"App.tool.leaderboard": {
+		"en": "Ranks",
+		"ja": "順位",
+		"ko": "순위",
+		"vi": "BXH",
+		"zh-tw": "排行榜"
 	},
 	"App.tool.summoner": {
 		"en": "Find a player",

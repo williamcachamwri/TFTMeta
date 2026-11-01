@@ -125,6 +125,7 @@ final class Repository: ObservableObject {
         // previous language would keep answering in it.
         BalanceStore.shared.serve(language)
         SummonerStore.shared.serve(language)
+        LeaderboardStore.shared.serve(language)
         Task { await refresh() }
     }
 

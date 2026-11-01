@@ -414,6 +414,9 @@ struct ToolStrip: View {
             ToolButton(title: L("App.tool.summoner"), systemImage: "person.crop.circle.badge.magnifyingglass", tint: Color(hex: 0x57C7E3)) {
                 SummonerSearchView()
             }
+            ToolButton(title: L("App.tool.leaderboard"), systemImage: "trophy.fill", tint: Color(hex: 0x39B57A)) {
+                LeaderboardView()
+            }
         }
         .padding(.horizontal, Theme.gutter)
     }
