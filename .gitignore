@@ -30,7 +30,7 @@ venv/
 
 # Scraping tools and temporary data
 .rea/
-Tools/
+Tools/*.py
 
 # IDE
 .vscode/
